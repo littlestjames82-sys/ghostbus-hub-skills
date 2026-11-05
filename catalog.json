@@ -15,6 +15,10 @@
       "bundle_bytes": 3744,
       "bundle_hash": "c729c6b23d1d30993b06da6a6bd525fe730d7922fc0f9a3b1a9fc6c28b297216",
       "vetted": true,
+      "composition": {
+        "root": 1
+      },
+      "example_file": null,
       "source": {
         "seller": "Ghost Developer Studio (first-party)",
         "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
@@ -70,6 +74,13 @@
       "bundle_bytes": 108768,
       "bundle_hash": "4cac787df24f43209a0079b290d3705f1cf7b9e823147c427af92801a1e28170",
       "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 20,
+        "reference": 9,
+        "templates": 5
+      },
+      "example_file": "examples/policy-audit/AUDIT.md",
       "source": {
         "seller": "Ghost Developer Studio (first-party)",
         "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
@@ -101,6 +112,13 @@
       "bundle_bytes": 50881,
       "bundle_hash": "904e30b6990144c3349fc6d6d94645a9b42b1a9dd0b229bded30bf091326901b",
       "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 7,
+        "reference": 2,
+        "scripts": 1
+      },
+      "example_file": "examples/clean-skill/AUDIT.md",
       "source": {
         "seller": "Ghost Developer Studio (first-party)",
         "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
@@ -133,6 +151,13 @@
       "bundle_bytes": 30562,
       "bundle_hash": "47e1691f3d9fe591dbca56074ba2cb7ba564d40866dca562d5b1832048bf20c5",
       "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 3,
+        "reference": 6,
+        "templates": 3
+      },
+      "example_file": "examples/from-idea-to-listing/WALKTHROUGH.md",
       "source": {
         "seller": "Ghost Developer Studio (first-party)",
         "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
@@ -162,6 +187,13 @@
       "bundle_bytes": 19470,
       "bundle_hash": "a5366e5d028322678272ad588f449ac52af4db61315c4a4dcc16fef8b5be9dcf",
       "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 5,
+        "templates": 2
+      },
+      "example_file": "examples/license-delivery/WALKTHROUGH.md",
       "source": {
         "seller": "Ghost Developer Studio (first-party)",
         "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
@@ -191,6 +223,13 @@
       "bundle_bytes": 18724,
       "bundle_hash": "cf278170f28b2a2e19fc60308483bd02b9972814cc730b9f79c7db860a404c79",
       "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 5,
+        "templates": 2
+      },
+      "example_file": "examples/outbound-call/WALKTHROUGH.md",
       "source": {
         "seller": "Ghost Developer Studio (first-party)",
         "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
@@ -219,6 +258,13 @@
       "bundle_bytes": 18866,
       "bundle_hash": "f006f16770865d8609b973ede701bb202d23aae4184ccb62d1650b89074454cb",
       "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": "examples/injection-attempt-review/REVIEW.md",
       "source": {
         "seller": "Ghost Developer Studio (first-party)",
         "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
@@ -247,6 +293,13 @@
       "bundle_bytes": 18524,
       "bundle_hash": "8cdde000d24cb21e863489ab3e9f80ad82704c136c36ee2b9af7e39a26b8e104",
       "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": "examples/bus-handoff/WALKTHROUGH.md",
       "source": {
         "seller": "Ghost Developer Studio (first-party)",
         "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
@@ -275,6 +328,13 @@
       "bundle_bytes": 17432,
       "bundle_hash": "3be22d84266d846faed715df68e29269162b0418a31a9391852438b4178ba0fe",
       "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": "examples/version-truth/WALKTHROUGH.md",
       "source": {
         "seller": "Ghost Developer Studio (first-party)",
         "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
@@ -303,6 +363,13 @@
       "bundle_bytes": 18856,
       "bundle_hash": "4674469d6ca16de7dd6605097eb3ad0eb2f5d706cb03f616ed6b6ca660648ffb",
       "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": "examples/correction-propagation/WALKTHROUGH.md",
       "source": {
         "seller": "Ghost Developer Studio (first-party)",
         "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
@@ -331,6 +398,13 @@
       "bundle_bytes": 18057,
       "bundle_hash": "cbd683d4b939d98b6883db7d5784bf9718a4d473a148738c0ce4aef8feb2f185",
       "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": "examples/hub-restore-drill/WALKTHROUGH.md",
       "source": {
         "seller": "Ghost Developer Studio (first-party)",
         "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
@@ -359,6 +433,13 @@
       "bundle_bytes": 17943,
       "bundle_hash": "2732bd7ec5482d0bd8aa890db71f8b45922472248f26d73eca281c8b7efa802a",
       "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": "examples/firewood-half-load/WALKTHROUGH.md",
       "source": {
         "seller": "Ghost Developer Studio (first-party)",
         "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
@@ -387,6 +468,13 @@
       "bundle_bytes": 17706,
       "bundle_hash": "eea87cff9e9af3c3554ee93c08b6e6d4609ab6b456a1d25eb5a377b2178d0215",
       "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": "examples/cleanup-lot-from-photos/WALKTHROUGH.md",
       "source": {
         "seller": "Ghost Developer Studio (first-party)",
         "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
@@ -415,6 +503,13 @@
       "bundle_bytes": 18648,
       "bundle_hash": "3d247e7262f5186177dc7948901c42b215566ff6d32bfcd2495ed289a0274954",
       "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": "examples/rear-overhang/WALKTHROUGH.md",
       "source": {
         "seller": "Ghost Developer Studio (first-party)",
         "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
