@@ -1,0 +1,159 @@
+{
+  "catalog": "GhostBus Hub",
+  "skills": [
+    {
+      "id": "agent-seatbelt-guardrails",
+      "title": "Agent Seatbelt Guardrails",
+      "version": "0.3.2",
+      "price_usd": 0,
+      "pricing": "free",
+      "category": "Security / Guardrails",
+      "files": 1,
+      "bundle_hash_short": "c729c6b23d1d",
+      "vetted": true
+    },
+    {
+      "id": "seatbelt-policy-authoring",
+      "title": "Seatbelt Policy Authoring",
+      "version": "1.3.0",
+      "price_usd": 19,
+      "pricing": "one-time",
+      "category": "Security / DevOps",
+      "files": 35,
+      "bundle_hash_short": "4cac787df24f",
+      "vetted": true
+    },
+    {
+      "id": "skill-vetting",
+      "title": "Skill Vetting",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Security / Code Review",
+      "files": 11,
+      "bundle_hash_short": "904e30b69901",
+      "vetted": true
+    },
+    {
+      "id": "skill-authoring",
+      "title": "Skill Authoring",
+      "version": "1.0.0",
+      "price_usd": 19,
+      "pricing": "one-time",
+      "category": "Agent Skills / Authoring",
+      "files": 13,
+      "bundle_hash_short": "47e1691f3d9f",
+      "vetted": true
+    },
+    {
+      "id": "agent-mail",
+      "title": "Agent Mail",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Agent Comms / Email",
+      "files": 10,
+      "bundle_hash_short": "a5366e5d0283",
+      "vetted": true
+    },
+    {
+      "id": "agent-phone",
+      "title": "Agent Phone",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Agent Comms / Phone",
+      "files": 10,
+      "bundle_hash_short": "cf278170f28b",
+      "vetted": true
+    },
+    {
+      "id": "agent-incident-review",
+      "title": "Agent Incident Review",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Agent Ops / Incident Review",
+      "files": 9,
+      "bundle_hash_short": "f006f1677086",
+      "vetted": true
+    },
+    {
+      "id": "agent-task-handoff",
+      "title": "Agent Task Handoff",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Agent Ops / Handoff",
+      "files": 9,
+      "bundle_hash_short": "8cdde000d24c",
+      "vetted": true
+    },
+    {
+      "id": "release-gatekeeper",
+      "title": "Release Gatekeeper",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Agent Ops / Release",
+      "files": 9,
+      "bundle_hash_short": "3be22d84266d",
+      "vetted": true
+    },
+    {
+      "id": "agent-memory-keeping",
+      "title": "Agent Memory Keeping",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Agent Ops / Memory",
+      "files": 9,
+      "bundle_hash_short": "4674469d6ca1",
+      "vetted": true
+    },
+    {
+      "id": "backups-restore-drills",
+      "title": "Backups and Restore Drills",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Agent Ops / Backups",
+      "files": 9,
+      "bundle_hash_short": "cbd683d4b939",
+      "vetted": true
+    },
+    {
+      "id": "marketplace-replies",
+      "title": "Marketplace Replies",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Agent Comms / Marketplace",
+      "files": 9,
+      "bundle_hash_short": "2732bd7ec548",
+      "vetted": true
+    },
+    {
+      "id": "photo-job-quoting",
+      "title": "Photo Job Quoting",
+      "version": "1.0.0",
+      "price_usd": 19,
+      "pricing": "one-time",
+      "category": "Local Services / Quoting",
+      "files": 9,
+      "bundle_hash_short": "eea87cff9e9a",
+      "vetted": true
+    },
+    {
+      "id": "load-safety-photo-check",
+      "title": "Load Safety Photo Check",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Transport / Load Safety",
+      "files": 9,
+      "bundle_hash_short": "3d247e7262f5",
+      "vetted": true
+    }
+  ]
+}
