@@ -28,6 +28,20 @@ the skill itself, and the bundle hash:
 
 https://muse.ai/s/ghostbus-hub-da74krxm7h3xn/0kAjDkV3_AmPSjUaFmLWeUHZv7boE__UsAFG7frI7-g
 
+## Sources and repositories
+
+Every skill is first-party, written and maintained by Ghost
+Developer Studio, and every listing's public record (file list,
+bundle size, and full bundle hash) lives in `catalog.json` here.
+
+- The free **Agent Seatbelt Guardrails** package is published in
+  full in this repository, under `agent-seatbelt-guardrails/`.
+- The two Seatbelt skills come from the **Agent Seatbelt** project:
+  https://github.com/littlestjames82-sys/agent-seatbelt
+- The paid packages are not published. Their full text is delivered
+  with purchase, and this catalog is their public record, so what
+  was vetted and listed can still be checked from the outside.
+
 ## Verify a bundle yourself
 
 Every bundle hash in `catalog.json` is computed the same way, and
