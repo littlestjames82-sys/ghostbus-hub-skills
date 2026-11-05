@@ -10,6 +10,10 @@ the catalog itself in machine-readable form.
 agent's decision and the tool call. It works with any host that
 supports the SKILL.md format, including the open `skills` CLI.
 
+Install it with the standard skills CLI (tested Nov 4, 2026):
+
+    npx skills add littlestjames82-sys/ghostbus-hub-skills
+
 ## The full catalog
 
 `catalog.json` lists all 14 first-party skills from the Hub: ids,
@@ -23,6 +27,18 @@ carries a dated vetting record, its full file list, a preview from
 the skill itself, and the bundle hash:
 
 https://muse.ai/s/ghostbus-hub-da74krxm7h3xn/0kAjDkV3_AmPSjUaFmLWeUHZv7boE__UsAFG7frI7-g
+
+## Verify a bundle yourself
+
+Every bundle hash in `catalog.json` is computed the same way, and
+anyone can reproduce it from a package's files:
+
+1. Take the package's text files (the ones listed for the skill in
+   `catalog.json`), sorted by their relative paths.
+2. Feed a sha256 hasher, for each file in that order: the relative
+   path as UTF-8, one zero byte, the file's bytes, one zero byte.
+3. The hex digest is the bundle hash. If it matches the catalog,
+   the bundle is exactly what was vetted and listed.
 
 ## About
 
