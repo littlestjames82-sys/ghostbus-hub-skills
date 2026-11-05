@@ -9,6 +9,9 @@
       "pricing": "free",
       "category": "Security / Guardrails",
       "files": 1,
+      "file_list": [
+        "SKILL.md"
+      ],
       "bundle_hash": "c729c6b23d1d30993b06da6a6bd525fe730d7922fc0f9a3b1a9fc6c28b297216",
       "vetted": true
     },
@@ -20,6 +23,43 @@
       "pricing": "one-time",
       "category": "Security / DevOps",
       "files": 35,
+      "file_list": [
+        "SKILL.md",
+        "examples/ci-team/EXPLANATION.md",
+        "examples/ci-team/TEST_BATTERY.md",
+        "examples/ci-team/policy.json",
+        "examples/data-pipeline/EXPLANATION.md",
+        "examples/data-pipeline/INTERVIEW.md",
+        "examples/data-pipeline/TEST_BATTERY.md",
+        "examples/data-pipeline/policy.json",
+        "examples/harbor-api/EXPLANATION.md",
+        "examples/harbor-api/INTERVIEW.md",
+        "examples/harbor-api/TEST_BATTERY.md",
+        "examples/harbor-api/plan.json",
+        "examples/harbor-api/policy.json",
+        "examples/infra/EXPLANATION.md",
+        "examples/infra/INTERVIEW.md",
+        "examples/infra/TEST_BATTERY.md",
+        "examples/infra/policy.json",
+        "examples/policy-audit/AUDIT.md",
+        "examples/policy-audit/TEST_BATTERY.md",
+        "examples/policy-audit/flawed-policy.json",
+        "examples/policy-audit/policy.json",
+        "reference/ask-budget.md",
+        "reference/audit-taxonomy.md",
+        "reference/ci-and-team.md",
+        "reference/host-notes.md",
+        "reference/incident-to-rule.md",
+        "reference/interview-bank.md",
+        "reference/pattern-cookbook.md",
+        "reference/stack-archetypes.md",
+        "reference/variation-battery.md",
+        "templates/audit-scorecard.md",
+        "templates/plan.template.json",
+        "templates/policy-pr-template.md",
+        "templates/policy.template.json",
+        "templates/tuning-log.md"
+      ],
       "bundle_hash": "4cac787df24f43209a0079b290d3705f1cf7b9e823147c427af92801a1e28170",
       "vetted": true
     },
@@ -31,6 +71,19 @@
       "pricing": "one-time",
       "category": "Security / Code Review",
       "files": 11,
+      "file_list": [
+        "SKILL.md",
+        "examples/clean-skill/AUDIT.md",
+        "examples/clean-skill/SKILL.md",
+        "examples/clean-skill/reference/format-guide.md",
+        "examples/trapped-skill/AUDIT.md",
+        "examples/trapped-skill/SKILL.md",
+        "examples/trapped-skill/reference/quick-wins.md",
+        "examples/trapped-skill/reference/setup-guide.md",
+        "reference/report-template.md",
+        "reference/review-checklist.md",
+        "scripts/scan_skill.py"
+      ],
       "bundle_hash": "904e30b6990144c3349fc6d6d94645a9b42b1a9dd0b229bded30bf091326901b",
       "vetted": true
     },
@@ -42,6 +95,21 @@
       "pricing": "one-time",
       "category": "Agent Skills / Authoring",
       "files": 13,
+      "file_list": [
+        "SKILL.md",
+        "examples/from-idea-to-listing/WALKTHROUGH.md",
+        "examples/minimal-skill/AUTHORING_NOTES.md",
+        "examples/minimal-skill/SKILL.md",
+        "reference/description-triggers.md",
+        "reference/frontmatter-guide.md",
+        "reference/ground-rules-catalog.md",
+        "reference/listing-honesty.md",
+        "reference/self-vet-checklist.md",
+        "reference/structure-patterns.md",
+        "templates/authoring-scorecard.md",
+        "templates/example.template.md",
+        "templates/skill.template.md"
+      ],
       "bundle_hash": "47e1691f3d9fe591dbca56074ba2cb7ba564d40866dca562d5b1832048bf20c5",
       "vetted": true
     },
@@ -53,6 +121,18 @@
       "pricing": "one-time",
       "category": "Agent Comms / Email",
       "files": 10,
+      "file_list": [
+        "SKILL.md",
+        "examples/inbox-triage/TRIAGE.md",
+        "examples/license-delivery/WALKTHROUGH.md",
+        "reference/addressing.md",
+        "reference/attachments-and-files.md",
+        "reference/gate-protocol.md",
+        "reference/inbound-handling.md",
+        "reference/license-delivery.md",
+        "templates/compose-brief.template.md",
+        "templates/triage-report.template.md"
+      ],
       "bundle_hash": "a5366e5d028322678272ad588f449ac52af4db61315c4a4dcc16fef8b5be9dcf",
       "vetted": true
     },
@@ -64,6 +144,18 @@
       "pricing": "one-time",
       "category": "Agent Comms / Phone",
       "files": 10,
+      "file_list": [
+        "SKILL.md",
+        "examples/inbound-call/INBOUND.md",
+        "examples/outbound-call/WALKTHROUGH.md",
+        "reference/call-gate.md",
+        "reference/extensions-and-contacts.md",
+        "reference/inbound-calls.md",
+        "reference/media-and-quality.md",
+        "reference/texting.md",
+        "templates/call-brief.template.md",
+        "templates/call-log.template.md"
+      ],
       "bundle_hash": "cf278170f28b2a2e19fc60308483bd02b9972814cc730b9f79c7db860a404c79",
       "vetted": true
     },
@@ -75,6 +167,17 @@
       "pricing": "one-time",
       "category": "Agent Ops / Incident Review",
       "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/injection-attempt-review/REVIEW.md",
+        "examples/stale-draft-near-miss/REVIEW.md",
+        "reference/corrective-actions.md",
+        "reference/evidence-and-inference.md",
+        "reference/severity-and-scope.md",
+        "reference/timeline-reconstruction.md",
+        "templates/incident-report.template.md",
+        "templates/timeline.template.md"
+      ],
       "bundle_hash": "f006f16770865d8609b973ede701bb202d23aae4184ccb62d1650b89074454cb",
       "vetted": true
     },
@@ -86,6 +189,17 @@
       "pricing": "one-time",
       "category": "Agent Ops / Handoff",
       "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/bus-handoff/WALKTHROUGH.md",
+        "examples/refused-handoff/RECEIPT.md",
+        "reference/acceptance-and-verification.md",
+        "reference/capsule-anatomy.md",
+        "reference/failure-modes.md",
+        "reference/lifecycle-and-proof.md",
+        "templates/handoff-capsule.template.md",
+        "templates/handoff-receipt.template.md"
+      ],
       "bundle_hash": "8cdde000d24cb21e863489ab3e9f80ad82704c136c36ee2b9af7e39a26b8e104",
       "vetted": true
     },
@@ -97,6 +211,17 @@
       "pricing": "one-time",
       "category": "Agent Ops / Release",
       "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/held-release/RECORD.md",
+        "examples/version-truth/WALKTHROUGH.md",
+        "reference/evidence-standards.md",
+        "reference/rollback-and-recovery.md",
+        "reference/the-gates.md",
+        "reference/version-truth.md",
+        "templates/release-checklist.template.md",
+        "templates/release-record.template.md"
+      ],
       "bundle_hash": "3be22d84266d846faed715df68e29269162b0418a31a9391852438b4178ba0fe",
       "vetted": true
     },
@@ -108,6 +233,17 @@
       "pricing": "one-time",
       "category": "Agent Ops / Memory",
       "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/correction-propagation/WALKTHROUGH.md",
+        "examples/parked-plan/WALKTHROUGH.md",
+        "reference/corrections-and-conflicts.md",
+        "reference/hygiene-and-forgetting.md",
+        "reference/provenance-and-trust.md",
+        "reference/what-earns-a-note.md",
+        "templates/correction-record.template.md",
+        "templates/memory-note.template.md"
+      ],
       "bundle_hash": "4674469d6ca16de7dd6605097eb3ad0eb2f5d706cb03f616ed6b6ca660648ffb",
       "vetted": true
     },
@@ -119,6 +255,17 @@
       "pricing": "one-time",
       "category": "Agent Ops / Backups",
       "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/hub-restore-drill/WALKTHROUGH.md",
+        "examples/the-config-that-wasnt/LESSON.md",
+        "reference/drill-cadence.md",
+        "reference/failure-modes.md",
+        "reference/manifest-discipline.md",
+        "reference/restore-verification.md",
+        "templates/backup-record.template.md",
+        "templates/drill-report.template.md"
+      ],
       "bundle_hash": "cbd683d4b939d98b6883db7d5784bf9718a4d473a148738c0ce4aef8feb2f185",
       "vetted": true
     },
@@ -130,6 +277,17 @@
       "pricing": "one-time",
       "category": "Agent Comms / Marketplace",
       "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/firewood-half-load/WALKTHROUGH.md",
+        "examples/valley-roof-repair/WALKTHROUGH.md",
+        "reference/drafting-in-voice.md",
+        "reference/money-and-terms.md",
+        "reference/thread-tracking.md",
+        "reference/triage-and-facts.md",
+        "templates/inquiry-record.template.md",
+        "templates/reply-draft.template.md"
+      ],
       "bundle_hash": "2732bd7ec5482d0bd8aa890db71f8b45922472248f26d73eca281c8b7efa802a",
       "vetted": true
     },
@@ -141,6 +299,17 @@
       "pricing": "one-time",
       "category": "Local Services / Quoting",
       "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/cleanup-lot-from-photos/WALKTHROUGH.md",
+        "examples/valley-from-photos/WALKTHROUGH.md",
+        "reference/ask-backs.md",
+        "reference/photo-evidence.md",
+        "reference/pricing-discipline.md",
+        "reference/quantities-from-photos.md",
+        "templates/photo-request.template.md",
+        "templates/quote-worksheet.template.md"
+      ],
       "bundle_hash": "eea87cff9e9af3c3554ee93c08b6e6d4609ab6b456a1d25eb5a377b2178d0215",
       "vetted": true
     },
@@ -152,6 +321,17 @@
       "pricing": "one-time",
       "category": "Transport / Load Safety",
       "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/rear-overhang/WALKTHROUGH.md",
+        "examples/tarp-gap-and-hidden-strap/WALKTHROUGH.md",
+        "reference/limits-and-law.md",
+        "reference/photo-capture.md",
+        "reference/the-eight-checks.md",
+        "reference/verdict-discipline.md",
+        "templates/capture-checklist.template.md",
+        "templates/check-report.template.md"
+      ],
       "bundle_hash": "3d247e7262f5186177dc7948901c42b215566ff6d32bfcd2495ed289a0274954",
       "vetted": true
     }
