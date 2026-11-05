@@ -13,9 +13,10 @@ supports the SKILL.md format, including the open `skills` CLI.
 ## The full catalog
 
 `catalog.json` lists all 14 first-party skills from the Hub: ids,
-versions, prices, categories, file counts, and bundle hashes in
-short form. The full registry is hash-verified on every run of the
-Hub's 135-check gate.
+versions, prices, categories, file counts, and full bundle hashes,
+so anyone can hash a bundle and verify it exactly against this
+catalog. The registry behind it is hash-verified on every run of
+the Hub's 135-check gate.
 
 The other 13 skills are sold through the Hub, where every listing
 carries a dated vetting record, its full file list, a preview from
