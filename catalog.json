@@ -515,6 +515,111 @@
         "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
         "package_published": false
       }
+    },
+    {
+      "id": "agent-daily-briefing",
+      "title": "Agent Daily Briefing",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Agent Ops / Briefing",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/a-morning-with-signal/WALKTHROUGH.md",
+        "examples/the-quiet-day/WALKTHROUGH.md",
+        "reference/format-and-timing.md",
+        "reference/ranking-the-day.md",
+        "reference/silence-rules.md",
+        "reference/sources-and-dedupe.md",
+        "templates/briefing.template.md",
+        "templates/source-checklist.template.md"
+      ],
+      "bundle_bytes": 25524,
+      "bundle_hash": "787ae20b7aa34964d52565166ab3db22fa86b9ab7bb7b2201900b46b5443724c",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": "examples/a-morning-with-signal/WALKTHROUGH.md",
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "verified-research",
+      "title": "Verified Research",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Agent Ops / Research",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/the-conflicting-claim/REVIEW.md",
+        "examples/the-land-record/WALKTHROUGH.md",
+        "reference/claim-audit.md",
+        "reference/people-and-property.md",
+        "reference/primary-sources.md",
+        "reference/reporting-the-dive.md",
+        "templates/findings-report.template.md",
+        "templates/research-brief.template.md"
+      ],
+      "bundle_bytes": 25757,
+      "bundle_hash": "629e9d84d738676d78e1c88f9a86a9544f633c002920db8b2bbdec5a109d4208",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": "examples/the-land-record/WALKTHROUGH.md",
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "job-site-scoping",
+      "title": "Job Site Scoping",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Local Services / Scoping",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/shed-concrete-prep/WALKTHROUGH.md",
+        "examples/the-leaking-valley/WALKTHROUGH.md",
+        "reference/day-rate-or-job-price.md",
+        "reference/photos-and-measures.md",
+        "reference/the-walkthrough.md",
+        "reference/the-written-scope.md",
+        "templates/scope-visit-checklist.template.md",
+        "templates/scope-writeup.template.md"
+      ],
+      "bundle_bytes": 28001,
+      "bundle_hash": "1018b7b96b04056be0282838830b3a878b9734a594c75b4216901c14fbc6d648",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": "examples/shed-concrete-prep/WALKTHROUGH.md",
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
     }
   ]
 }
