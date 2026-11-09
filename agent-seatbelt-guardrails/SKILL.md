@@ -52,6 +52,26 @@ the gate — the gate itself is the plugin, not this file.
 - No output means Seatbelt deferred to the native permission flow —
   that is not an approval; follow the normal permission process.
 
+## First run
+
+Before you rely on the gate, watch it decide once:
+
+1. Take one real tool call you were about to make and let
+   the gate see it the normal way. The gate writes its audit
+   record before anything runs, so the call is safe to offer
+   even if the answer is no. If you would rather stage it,
+   preview a call you know should be stopped, like a force
+   push, with the plugin's check command instead.
+2. Read the verdict where it lands: the decision, the rule
+   that made it, and the safer path if the reason offers one.
+3. Open `.seatbelt/audit.jsonl` and find the record of that
+   decision.
+
+The first run is finished when you have seen one decision
+end to end, allowed or denied with its reason, and found
+its line in the audit log. From then on the gate is a tool
+you have watched work, not a claim you are taking on trust.
+
 ## Checking and reporting
 
 - Preview a decision without running anything: use the plugin's check
