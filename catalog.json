@@ -745,6 +745,114 @@
         "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
         "package_published": false
       }
+    },
+    {
+      "id": "invoice-and-follow-up",
+      "title": "Invoice and Follow-Up",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Local Services / Money",
+      "blurb": "Finished work turns into paid work: the invoice is built from the job record, and the follow-up is already written.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/balance-after-deposit/WALKTHROUGH.md",
+        "examples/the-slow-payer/WALKTHROUGH.md",
+        "reference/building-the-invoice.md",
+        "reference/figures-and-changes.md",
+        "reference/the-follow-up-ladder.md",
+        "reference/the-job-ledger.md",
+        "templates/invoice-draft.template.md",
+        "templates/job-ledger.template.md"
+      ],
+      "bundle_bytes": 22165,
+      "bundle_hash": "4ca84478d9e5060d2170f64d7b80117958174ad40c35fb21aa3cc2f0394ebbea",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "review-requests",
+      "title": "Review Requests",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Reputation",
+      "blurb": "Finished jobs turn into public proof, one honest ask at a time.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/the-fix-first-job/WALKTHROUGH.md",
+        "examples/yard-cleanup-review/WALKTHROUGH.md",
+        "reference/drafting-the-ask.md",
+        "reference/platforms-and-links.md",
+        "reference/the-ask-log.md",
+        "reference/the-right-moment.md",
+        "templates/ask-and-thanks.template.md",
+        "templates/ask-record.template.md"
+      ],
+      "bundle_bytes": 21865,
+      "bundle_hash": "377e4a9ce1eeb8ff17311f1fa9b6ea6979a62655cacc4596dd1560f9866c77a1",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "social-posting-gate",
+      "title": "Social Posting Gate",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Studio / Publishing",
+      "blurb": "You post at agent speed, and nothing goes out carrying a claim you cannot back.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/the-almost-claim/WALKTHROUGH.md",
+        "examples/the-release-post/WALKTHROUGH.md",
+        "reference/claim-checking.md",
+        "reference/platform-facts.md",
+        "reference/the-brief.md",
+        "reference/voice-rules.md",
+        "templates/post-brief.template.md",
+        "templates/posting-record.template.md"
+      ],
+      "bundle_bytes": 22561,
+      "bundle_hash": "e183ec88115b5fa4156493626c8798baaca4ba1b5b2e84fcc68a8021ff9ffd50",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
     }
   ]
 }
