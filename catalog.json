@@ -8,12 +8,13 @@
       "price_usd": 0,
       "pricing": "free",
       "category": "Security / Guardrails",
+      "blurb": "Your agent stops asking permission for the safe calls, and can never quietly make the dangerous ones.",
       "files": 1,
       "file_list": [
         "SKILL.md"
       ],
-      "bundle_bytes": 3744,
-      "bundle_hash": "c729c6b23d1d30993b06da6a6bd525fe730d7922fc0f9a3b1a9fc6c28b297216",
+      "bundle_bytes": 4588,
+      "bundle_hash": "66d745b552042c1e46ef3b372ca7c2f37b7f1b158c1e74fabe7504608f2a44ba",
       "vetted": true,
       "composition": {
         "root": 1
@@ -33,6 +34,7 @@
       "price_usd": 19,
       "pricing": "one-time",
       "category": "Security / DevOps",
+      "blurb": "A policy that fits your project, written from your answers, with every risky rule proven in check mode before it can block anything real.",
       "files": 35,
       "file_list": [
         "SKILL.md",
@@ -71,8 +73,8 @@
         "templates/policy.template.json",
         "templates/tuning-log.md"
       ],
-      "bundle_bytes": 108768,
-      "bundle_hash": "4cac787df24f43209a0079b290d3705f1cf7b9e823147c427af92801a1e28170",
+      "bundle_bytes": 109873,
+      "bundle_hash": "da74e0f70ddf43626b9341bd3ea9c189d5ba172fb5194c7ca20e6e4a87119762",
       "vetted": true,
       "composition": {
         "root": 1,
@@ -95,6 +97,7 @@
       "price_usd": 15,
       "pricing": "one-time",
       "category": "Security / Code Review",
+      "blurb": "You know what a skill will do to your machine before it runs, in writing.",
       "files": 11,
       "file_list": [
         "SKILL.md",
@@ -109,8 +112,8 @@
         "reference/review-checklist.md",
         "scripts/scan_skill.py"
       ],
-      "bundle_bytes": 50881,
-      "bundle_hash": "904e30b6990144c3349fc6d6d94645a9b42b1a9dd0b229bded30bf091326901b",
+      "bundle_bytes": 51740,
+      "bundle_hash": "8ca6bc269c6daed42d973aee76d4615340efd0ddafe8328bceb77331cb6086a9",
       "vetted": true,
       "composition": {
         "root": 1,
@@ -132,6 +135,7 @@
       "price_usd": 19,
       "pricing": "one-time",
       "category": "Agent Skills / Authoring",
+      "blurb": "Your repeated workflows become skills another agent can run without you in the room.",
       "files": 13,
       "file_list": [
         "SKILL.md",
@@ -148,8 +152,8 @@
         "templates/example.template.md",
         "templates/skill.template.md"
       ],
-      "bundle_bytes": 30562,
-      "bundle_hash": "47e1691f3d9fe591dbca56074ba2cb7ba564d40866dca562d5b1832048bf20c5",
+      "bundle_bytes": 31628,
+      "bundle_hash": "00fddc1374356f1da70cd7d23fba380fb08f16595688d9a3475c4a8f401379b8",
       "vetted": true,
       "composition": {
         "root": 1,
@@ -171,6 +175,7 @@
       "price_usd": 15,
       "pricing": "one-time",
       "category": "Agent Comms / Email",
+      "blurb": "Your agent drafts and prepares email all day; nothing leaves without your approval.",
       "files": 10,
       "file_list": [
         "SKILL.md",
@@ -184,8 +189,8 @@
         "templates/compose-brief.template.md",
         "templates/triage-report.template.md"
       ],
-      "bundle_bytes": 19470,
-      "bundle_hash": "a5366e5d028322678272ad588f449ac52af4db61315c4a4dcc16fef8b5be9dcf",
+      "bundle_bytes": 20277,
+      "bundle_hash": "81c3849041cf28bf5b34f1b1d6eb8c33a469b3027bc779ef66f4a760cdc70864",
       "vetted": true,
       "composition": {
         "root": 1,
@@ -207,6 +212,7 @@
       "price_usd": 15,
       "pricing": "one-time",
       "category": "Agent Comms / Phone",
+      "blurb": "Your agent works the call list you give it, briefed and approved first, and every call is logged.",
       "files": 10,
       "file_list": [
         "SKILL.md",
@@ -220,8 +226,8 @@
         "templates/call-brief.template.md",
         "templates/call-log.template.md"
       ],
-      "bundle_bytes": 18724,
-      "bundle_hash": "cf278170f28b2a2e19fc60308483bd02b9972814cc730b9f79c7db860a404c79",
+      "bundle_bytes": 19774,
+      "bundle_hash": "c7a1c09481442ff784b613176fa9f4df5557b917df63e38a55ef8b796a57b55a",
       "vetted": true,
       "composition": {
         "root": 1,
@@ -243,6 +249,7 @@
       "price_usd": 12,
       "pricing": "one-time",
       "category": "Agent Ops / Incident Review",
+      "blurb": "The next incident gets cheaper, because the last one was actually understood.",
       "files": 9,
       "file_list": [
         "SKILL.md",
@@ -255,8 +262,8 @@
         "templates/incident-report.template.md",
         "templates/timeline.template.md"
       ],
-      "bundle_bytes": 18866,
-      "bundle_hash": "f006f16770865d8609b973ede701bb202d23aae4184ccb62d1650b89074454cb",
+      "bundle_bytes": 19778,
+      "bundle_hash": "d6cb3fd3b03206d740aaea07dfa73f7e8d6d822c8d57e403c6f48f6a3d375e1f",
       "vetted": true,
       "composition": {
         "root": 1,
@@ -278,6 +285,7 @@
       "price_usd": 15,
       "pricing": "one-time",
       "category": "Agent Ops / Handoff",
+      "blurb": "Work passes between agents without the telephone game.",
       "files": 9,
       "file_list": [
         "SKILL.md",
@@ -290,8 +298,8 @@
         "templates/handoff-capsule.template.md",
         "templates/handoff-receipt.template.md"
       ],
-      "bundle_bytes": 18524,
-      "bundle_hash": "8cdde000d24cb21e863489ab3e9f80ad82704c136c36ee2b9af7e39a26b8e104",
+      "bundle_bytes": 19361,
+      "bundle_hash": "e616a99f01875b8b1eac7dfa59053bdf898a99a454abace89a089750f482a441",
       "vetted": true,
       "composition": {
         "root": 1,
@@ -313,6 +321,7 @@
       "price_usd": 15,
       "pricing": "one-time",
       "category": "Agent Ops / Release",
+      "blurb": "Nothing ships on a green feeling; it ships on evidence, gate by gate.",
       "files": 9,
       "file_list": [
         "SKILL.md",
@@ -325,8 +334,8 @@
         "templates/release-checklist.template.md",
         "templates/release-record.template.md"
       ],
-      "bundle_bytes": 17432,
-      "bundle_hash": "3be22d84266d846faed715df68e29269162b0418a31a9391852438b4178ba0fe",
+      "bundle_bytes": 18330,
+      "bundle_hash": "a45760b0255645930f7ced381a74a8e578fe0a9e6c0c93eefeea0edc31ee73a5",
       "vetted": true,
       "composition": {
         "root": 1,
@@ -348,6 +357,7 @@
       "price_usd": 15,
       "pricing": "one-time",
       "category": "Agent Ops / Memory",
+      "blurb": "Your agent remembers what matters, and corrections actually stick.",
       "files": 9,
       "file_list": [
         "SKILL.md",
@@ -360,8 +370,8 @@
         "templates/correction-record.template.md",
         "templates/memory-note.template.md"
       ],
-      "bundle_bytes": 18856,
-      "bundle_hash": "4674469d6ca16de7dd6605097eb3ad0eb2f5d706cb03f616ed6b6ca660648ffb",
+      "bundle_bytes": 19694,
+      "bundle_hash": "b92354a292d52a851a6cb4c9c34ec3bc06c73e671971f12d22bb1e67af4e0c97",
       "vetted": true,
       "composition": {
         "root": 1,
@@ -383,6 +393,7 @@
       "price_usd": 12,
       "pricing": "one-time",
       "category": "Agent Ops / Backups",
+      "blurb": "A backup you have already restored from once is the only kind that counts.",
       "files": 9,
       "file_list": [
         "SKILL.md",
@@ -395,8 +406,8 @@
         "templates/backup-record.template.md",
         "templates/drill-report.template.md"
       ],
-      "bundle_bytes": 18057,
-      "bundle_hash": "cbd683d4b939d98b6883db7d5784bf9718a4d473a148738c0ce4aef8feb2f185",
+      "bundle_bytes": 18805,
+      "bundle_hash": "2e38fe6cfce1503b83b70af84a750d03310aab2f880ee6619e417e42427e92f1",
       "vetted": true,
       "composition": {
         "root": 1,
@@ -418,6 +429,7 @@
       "price_usd": 12,
       "pricing": "one-time",
       "category": "Agent Comms / Marketplace",
+      "blurb": "Every inquiry gets a fast, honest reply, and you still send each one yourself.",
       "files": 9,
       "file_list": [
         "SKILL.md",
@@ -430,8 +442,8 @@
         "templates/inquiry-record.template.md",
         "templates/reply-draft.template.md"
       ],
-      "bundle_bytes": 17943,
-      "bundle_hash": "2732bd7ec5482d0bd8aa890db71f8b45922472248f26d73eca281c8b7efa802a",
+      "bundle_bytes": 18832,
+      "bundle_hash": "7fced411137434a3b7fab4175d859829ad1d0ffa2aa1702e185988ec6c22caab",
       "vetted": true,
       "composition": {
         "root": 1,
@@ -453,6 +465,7 @@
       "price_usd": 19,
       "pricing": "one-time",
       "category": "Local Services / Quoting",
+      "blurb": "A quote from photos that says what it is built on, and what the photos cannot prove.",
       "files": 9,
       "file_list": [
         "SKILL.md",
@@ -465,8 +478,8 @@
         "templates/photo-request.template.md",
         "templates/quote-worksheet.template.md"
       ],
-      "bundle_bytes": 17706,
-      "bundle_hash": "eea87cff9e9af3c3554ee93c08b6e6d4609ab6b456a1d25eb5a377b2178d0215",
+      "bundle_bytes": 18588,
+      "bundle_hash": "e5c8a7af12e0f4bd2d7d9a1ade12df050225374ac1b849c3898bdc916e6b747e",
       "vetted": true,
       "composition": {
         "root": 1,
@@ -488,6 +501,7 @@
       "price_usd": 12,
       "pricing": "one-time",
       "category": "Transport / Load Safety",
+      "blurb": "Eight checks on a load photo, each closed honestly: pass, check this, or could not tell.",
       "files": 9,
       "file_list": [
         "SKILL.md",
@@ -500,8 +514,8 @@
         "templates/capture-checklist.template.md",
         "templates/check-report.template.md"
       ],
-      "bundle_bytes": 18648,
-      "bundle_hash": "3d247e7262f5186177dc7948901c42b215566ff6d32bfcd2495ed289a0274954",
+      "bundle_bytes": 19691,
+      "bundle_hash": "ee561ea0011da4da1c19a8c9916e417fc7f048f5da1b34f97e9d0a97d9c25b23",
       "vetted": true,
       "composition": {
         "root": 1,
@@ -523,6 +537,7 @@
       "price_usd": 12,
       "pricing": "one-time",
       "category": "Agent Ops / Briefing",
+      "blurb": "One message each morning that earns its place, or a deliberate silence.",
       "files": 9,
       "file_list": [
         "SKILL.md",
@@ -535,8 +550,8 @@
         "templates/briefing.template.md",
         "templates/source-checklist.template.md"
       ],
-      "bundle_bytes": 25524,
-      "bundle_hash": "787ae20b7aa34964d52565166ab3db22fa86b9ab7bb7b2201900b46b5443724c",
+      "bundle_bytes": 26362,
+      "bundle_hash": "01a286c5a37ba3bbb3abe780b2bd493026fee1cc685159247bac0773f10d8506",
       "vetted": true,
       "composition": {
         "root": 1,
@@ -558,6 +573,7 @@
       "price_usd": 15,
       "pricing": "one-time",
       "category": "Agent Ops / Research",
+      "blurb": "Every figure you act on has been traced to the source that actually said it.",
       "files": 9,
       "file_list": [
         "SKILL.md",
@@ -570,8 +586,8 @@
         "templates/findings-report.template.md",
         "templates/research-brief.template.md"
       ],
-      "bundle_bytes": 25757,
-      "bundle_hash": "629e9d84d738676d78e1c88f9a86a9544f633c002920db8b2bbdec5a109d4208",
+      "bundle_bytes": 27051,
+      "bundle_hash": "eae2f35be458bfca6912c05f41269ad69f38caa4915955f422a96ec455232929",
       "vetted": true,
       "composition": {
         "root": 1,
@@ -593,6 +609,7 @@
       "price_usd": 15,
       "pricing": "one-time",
       "category": "Local Services / Scoping",
+      "blurb": "A written scope a price can stand on, made before the work starts.",
       "files": 9,
       "file_list": [
         "SKILL.md",
@@ -605,8 +622,8 @@
         "templates/scope-visit-checklist.template.md",
         "templates/scope-writeup.template.md"
       ],
-      "bundle_bytes": 28001,
-      "bundle_hash": "1018b7b96b04056be0282838830b3a878b9734a594c75b4216901c14fbc6d648",
+      "bundle_bytes": 28854,
+      "bundle_hash": "1f7d43bd52b2f00425ae0c6f452ccb0e9cf54ae9551e218483033b80432eb6c2",
       "vetted": true,
       "composition": {
         "root": 1,
@@ -615,6 +632,114 @@
         "templates": 2
       },
       "example_file": "examples/shed-concrete-prep/WALKTHROUGH.md",
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "agent-watchkeeping",
+      "title": "Agent Watchkeeping",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Agent Ops / Watches",
+      "blurb": "Your agent watches the threads that matter and speaks only when something actually changed.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/the-buyer-watch/WALKTHROUGH.md",
+        "examples/the-reply-watch/WALKTHROUGH.md",
+        "reference/baseline-discipline.md",
+        "reference/change-detection.md",
+        "reference/ending-a-watch.md",
+        "reference/reporting-changes.md",
+        "templates/change-report.template.md",
+        "templates/watch-brief.template.md"
+      ],
+      "bundle_bytes": 31447,
+      "bundle_hash": "3dec99b45c4d109c0e7724b8e0c35fdcc496b8cdc681766c8ea3da89f3f9346e",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": "examples/the-reply-watch/WALKTHROUGH.md",
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "context-cost-control",
+      "title": "Context Cost Control",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Agent Ops / Context",
+      "blurb": "The same agent, doing the same work, on a fraction of the context.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/the-false-saving/REVIEW.md",
+        "examples/the-oversized-brief/WALKTHROUGH.md",
+        "reference/measuring-the-context.md",
+        "reference/slicing-strategies.md",
+        "reference/summaries-with-provenance.md",
+        "reference/verifying-the-saving.md",
+        "templates/context-audit.template.md",
+        "templates/slice-plan.template.md"
+      ],
+      "bundle_bytes": 20348,
+      "bundle_hash": "01c7673f0e434426f1cfdf379ac879b9f08920c3e0edb9139d7b684440ade568",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": "examples/the-oversized-brief/WALKTHROUGH.md",
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "delegated-work-control",
+      "title": "Delegated Work Control",
+      "version": "1.0.0",
+      "price_usd": 19,
+      "pricing": "one-time",
+      "category": "Agent Ops / Delegation",
+      "blurb": "Work you hand off comes back verified, not just reported.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/the-clean-handoff/WALKTHROUGH.md",
+        "examples/the-inflated-count/WALKTHROUGH.md",
+        "reference/parent-verification.md",
+        "reference/reading-a-report.md",
+        "reference/sanity-gates.md",
+        "reference/writing-the-brief.md",
+        "templates/delegation-brief.template.md",
+        "templates/verification-checklist.template.md"
+      ],
+      "bundle_bytes": 20693,
+      "bundle_hash": "a334f734ac13317a1fe4c1467c6e996e8a09f030d849b3e1f6d8bfd9158de2a6",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": "examples/the-clean-handoff/WALKTHROUGH.md",
       "source": {
         "seller": "Ghost Developer Studio (first-party)",
         "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
