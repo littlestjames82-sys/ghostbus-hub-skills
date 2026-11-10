@@ -6145,6 +6145,438 @@
         "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
         "package_published": false
       }
+    },
+    {
+      "id": "agent-retrospective-notes",
+      "title": "Agent Retrospective Notes",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Agent Operations",
+      "blurb": "A period of agent work gets a written account instead of a fresh guess: what ran, what the records show went well or badly, and lessons kept as dated notes with the change each one produced.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/a-busy-month-that-changed-how-reminders-were-sent/WALKTHROUGH.md",
+        "examples/a-quiet-quarter-that-still-changed-two-rules/WALKTHROUGH.md",
+        "reference/lesson-notes-fields.md",
+        "reference/reading-a-period-for-lessons.md",
+        "reference/retrospective-scope-and-sources.md",
+        "reference/tracking-changes-to-the-next-period.md",
+        "templates/lesson-note.template.md",
+        "templates/retrospective.template.md"
+      ],
+      "bundle_bytes": 43588,
+      "bundle_hash": "6bd55bc70e1b4b34a52040629b975afffa48a8a290b4634c32824575b7500f89",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "prompt-version-registry",
+      "title": "Prompt Version Registry",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Agent Operations",
+      "blurb": "Every prompt change stops being a mystery: each version is kept whole in one registry with what changed, why, and which runs used it, and a named earlier version can be brought back whole when a change makes things worse.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/bringing-an-old-prompt-back-after-a-bad-change/WALKTHROUGH.md",
+        "examples/tracing-which-prompt-version-ran-a-job/WALKTHROUGH.md",
+        "reference/linking-runs-to-versions.md",
+        "reference/naming-and-numbering-versions.md",
+        "reference/registry-entry-fields.md",
+        "reference/rollback-and-retirement.md",
+        "templates/prompt-registry.template.md",
+        "templates/prompt-version-entry.template.md"
+      ],
+      "bundle_bytes": 52208,
+      "bundle_hash": "88056c1dda87a3cc01e23b7dd5f8103c883befc00da4cf08b936675579e9761e",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "tool-permission-scoping",
+      "title": "Tool Permission Scoping",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Agent Safety and Governance",
+      "blurb": "Each tool an agent can touch is scoped to the least access its stated job needs, worked out per task type and written down on one sheet, with every wider exception approved and dated.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/adding-a-payment-tool-with-a-tight-scope/WALKTHROUGH.md",
+        "examples/scoping-a-new-inbox-and-files-helper/WALKTHROUGH.md",
+        "reference/exceptions-and-dated-approvals.md",
+        "reference/least-scope-tests.md",
+        "reference/task-types-and-tool-jobs.md",
+        "reference/writing-the-scope-sheet.md",
+        "templates/exception-request.template.md",
+        "templates/tool-scope-sheet.template.md"
+      ],
+      "bundle_bytes": 47635,
+      "bundle_hash": "28eb75083623cfc997cddd39c6eed2bd3e0da901611e8e5a4cf79983cbf4a570",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "canary-release-checks",
+      "title": "Canary Release Checks",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Studio / Shipping",
+      "blurb": "A release reaches everyone in stages instead of all at once: a small first audience, one fixed check list run at each stage, and a written widen, hold, or roll back call before it moves further.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/a-clean-widening-that-reached-everyone/WALKTHROUGH.md",
+        "examples/a-hold-then-rollback-at-the-second-stage/WALKTHROUGH.md",
+        "reference/running-a-rollback-and-after.md",
+        "reference/stage-plan-fields.md",
+        "reference/the-fixed-check-list.md",
+        "reference/widen-hold-or-rollback-calls.md",
+        "templates/canary-stage-plan.template.md",
+        "templates/stage-check-record.template.md"
+      ],
+      "bundle_bytes": 48777,
+      "bundle_hash": "48e658dbe85fb6213161bfade22e73d9f85ee08d8dbf18e473ea567e578dd2a8",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "pdf-table-extraction",
+      "title": "PDF Table Extraction",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Data, Files, and Research",
+      "blurb": "Tables trapped in PDFs become spreadsheets you can check: rows and totals lifted page by page and reconciled against the totals printed in the source, with every unreadable cell flagged in place rather than guessed.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/a-rotated-statement-table-with-flagged-cells/WALKTHROUGH.md",
+        "examples/a-three-page-stock-list-reconciled-to-its-totals/WALKTHROUGH.md",
+        "reference/reading-cells-and-flagging-unreadable-ones.md",
+        "reference/reconciling-rows-and-totals.md",
+        "reference/spreadsheet-output-and-column-types.md",
+        "reference/table-discovery-and-page-map.md",
+        "templates/extraction-run-sheet.template.md",
+        "templates/reconciliation-report.template.md"
+      ],
+      "bundle_bytes": 46934,
+      "bundle_hash": "31bff007ad2eaa9c67c2b157975ec4e600d34cb5044f431a72a86a98120f4c68",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "naming-convention-setup",
+      "title": "Naming Convention Setup",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Data, Files, and Research",
+      "blurb": "A new project starts with names that hold up: one written naming convention for files, versions, and deliverables, with checker rules that test each new name before it is saved.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/designing-a-convention-for-a-new-research-study/WALKTHROUGH.md",
+        "examples/starting-a-shared-drive-for-a-new-team/WALKTHROUGH.md",
+        "reference/checker-rules.md",
+        "reference/parts-of-a-good-name.md",
+        "reference/rolling-out-and-revising.md",
+        "reference/versioning-and-status-marks.md",
+        "templates/convention-sheet.template.md",
+        "templates/name-checker.template.md"
+      ],
+      "bundle_bytes": 53155,
+      "bundle_hash": "fab2535d62f5c5f37f17b94ebb80455e27138a7341ca1877e560512d725355cf",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "newsletter-sponsor-slots",
+      "title": "Newsletter Sponsor Slots",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Creator and Audience",
+      "blurb": "Every sponsor slot in your newsletter is booked against a named issue in one dated inventory, with copy and link due dates tracked per booking and delivery confirmed from the issue that actually went out, so a paid slot is never double booked or run unproven.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/autumn-launch-four-issues/WALKTHROUGH.md",
+        "examples/spring-season-six-issues/WALKTHROUGH.md",
+        "reference/booking-slots-against-issues.md",
+        "reference/building-the-slot-inventory.md",
+        "reference/disclosure-and-delivery-confirmation.md",
+        "reference/tracking-copy-links-and-due-dates.md",
+        "templates/issue-delivery-check.template.md",
+        "templates/slot-inventory-ledger.template.md"
+      ],
+      "bundle_bytes": 33472,
+      "bundle_hash": "6f413a259cb9cc1a3f7ab103ff56ad0c9efcd4b974f85624c012bcd260be12ce",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "community-mod-queue",
+      "title": "Community Mod Queue",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Creator and Audience",
+      "blurb": "Your community's flagged items get worked as a queue against your written rules: each one read in full, decided on the rule it was flagged under, and logged with the action taken, with repeat patterns summed up at the end of a run so the rules can be tightened.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/creator-community-evening-queue/WALKTHROUGH.md",
+        "examples/hobby-forum-monday-queue/WALKTHROUGH.md",
+        "reference/recording-each-decision.md",
+        "reference/spotting-repeat-patterns.md",
+        "reference/working-the-queue-in-order.md",
+        "reference/writing-the-rules-down.md",
+        "templates/pattern-report.template.md",
+        "templates/queue-log.template.md"
+      ],
+      "bundle_bytes": 32507,
+      "bundle_hash": "3837f5ed4f28e0d5897f4cc37212eb2c6d87ed2a96c55413c72a9628ec649cd5",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "seasonal-crew-hiring-pack",
+      "title": "Seasonal Crew Hiring Pack",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Local Services / Field Operations",
+      "blurb": "Seasonal hiring stops running on hurry and memory: the role is written from the work the season actually holds, the screening questions and pass marks are fixed before the first application arrives, trial days are paid and recorded against the same checks for everyone, and every candidate, hired or not, gets an ending in writing.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/autumn-yard-crew-hiring-run/WALKTHROUGH.md",
+        "examples/spring-cleanup-hiring-run/WALKTHROUGH.md",
+        "reference/closing-out-offers-and-rejections.md",
+        "reference/screening-questions-fixed-in-advance.md",
+        "reference/trial-days-on-the-record.md",
+        "reference/writing-the-role-from-the-work.md",
+        "templates/hiring-pack-sheet.template.md",
+        "templates/trial-day-record.template.md"
+      ],
+      "bundle_bytes": 35405,
+      "bundle_hash": "a02c1041495de42b715dee5e3b6ef0d787a4318b1701d5cc6df5a2cce069f44b",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "cash-handling-log",
+      "title": "Cash Handling Log",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Money",
+      "blurb": "Every cash payment is logged the moment it lands, with the job, the amount, and who took it, counted and deposited on a stated rhythm, and reconciled against the invoices it settles, so a shortage is named on the record the day it appears.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/clean-week-reconciled-in-full/WALKTHROUGH.md",
+        "examples/short-count-named-same-day/WALKTHROUGH.md",
+        "reference/counting-and-deposit-rhythm.md",
+        "reference/logging-cash-at-receipt.md",
+        "reference/reconciling-against-invoices.md",
+        "reference/shortages-and-discrepancies.md",
+        "templates/cash-log.template.md",
+        "templates/reconciliation-and-deposit.template.md"
+      ],
+      "bundle_bytes": 37555,
+      "bundle_hash": "08dba643dac0dc9c5eb2b356fabea7370ffc12ecc4344c7f82be6268d4f1f2ef",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "service-guarantee-tracking",
+      "title": "Service Guarantee Tracking",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Reputation",
+      "blurb": "Every guarantee you promise on a job sits in one ledger with what was promised, on which job, and until when, and every claim against a guarantee is tracked to its recorded resolution.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/kitchen-and-bath-ledger-opening/WALKTHROUGH.md",
+        "examples/roofing-season-claims-review/WALKTHROUGH.md",
+        "reference/closing-a-claim-with-resolution.md",
+        "reference/recording-a-claim.md",
+        "reference/reviewing-the-ledger-and-expiry.md",
+        "reference/writing-a-guarantee-entry.md",
+        "templates/claim-record.template.md",
+        "templates/guarantee-ledger.template.md"
+      ],
+      "bundle_bytes": 34047,
+      "bundle_hash": "74306d1fd53101063e96afd08740aa2045f434a65d8729b4af9558b3d58a99cb",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "photo-backup-routine",
+      "title": "Photo Backup Routine",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Data, Files, and Research",
+      "blurb": "Your job photos move from phone to archive on one fixed routine: each batch counted, copied, reconciled, and verified in the archive before the phone copy is cleared, so the only copy of a job's photos never lives on a phone.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/mixed-jobs-discrepancy-held/WALKTHROUGH.md",
+        "examples/roofing-week-clean-backup/WALKTHROUGH.md",
+        "reference/choosing-the-routine-and-archive.md",
+        "reference/clearing-the-phone-safely.md",
+        "reference/counting-and-reconciling-batches.md",
+        "reference/verifying-the-archive-copy.md",
+        "templates/backup-log.template.md",
+        "templates/batch-verification-note.template.md"
+      ],
+      "bundle_bytes": 34839,
+      "bundle_hash": "39cd9ff1ad59230e7fa76adbc8f1000bbed4dc9aad34fa840e4b9a072443a96b",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
     }
   ]
 }
