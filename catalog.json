@@ -4417,6 +4417,438 @@
         "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
         "package_published": false
       }
+    },
+    {
+      "id": "agent-decision-log",
+      "title": "Agent Decision Log",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Agent Operations",
+      "blurb": "Settle any questioned agent decision from one entry instead of from memory, and catch a repeating fault in the log before it becomes damage: every consequential call is recorded at the time with what the agent was given, the rule or record it followed, and what came of it.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/a-pattern-review-that-changed-an-ordering-rule/WALKTHROUGH.md",
+        "examples/a-refund-call-traced-three-weeks-later/WALKTHROUGH.md",
+        "reference/decision-entry-fields.md",
+        "reference/keeping-and-correcting-the-log.md",
+        "reference/reading-the-log-for-patterns.md",
+        "reference/what-counts-as-consequential.md",
+        "templates/decision-log-entry.template.md",
+        "templates/decision-log.template.md"
+      ],
+      "bundle_bytes": 48263,
+      "bundle_hash": "c5e51c8cf103d4b15a541944280e138cacfea266105c79dafde1b0bf623330c8",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "agent-capacity-planning",
+      "title": "Agent Capacity Planning",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Agent Operations",
+      "blurb": "Know how much more work your fleet can take, agent by agent, from one record of load, queue growth, and the load where quality starts dropping, before a peak or a growing backlog forces the answer.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/four-agent-fleet-before-the-holiday-peak/WALKTHROUGH.md",
+        "examples/weekly-check-that-caught-a-growing-queue/WALKTHROUGH.md",
+        "reference/capacity-terms-and-counts.md",
+        "reference/finding-where-quality-drops.md",
+        "reference/queue-growth-and-backlog.md",
+        "reference/reading-per-agent-load.md",
+        "templates/agent-load-entry.template.md",
+        "templates/capacity-record.template.md"
+      ],
+      "bundle_bytes": 48345,
+      "bundle_hash": "55781fd1f17e8731339d3c8c20d2eb00ae2db812dfe1bfef073ff0967ff09117",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "secret-rotation-schedule",
+      "title": "Secret Rotation Schedule",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Agent Safety and Governance",
+      "blurb": "Every secret on one written rotation schedule, by label and location only: its age, its owner, and its next rotation date, with the reminder drafted ahead of the date and each rotation logged, so no secret ages in silence.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/catching-up-an-overdue-schedule/WALKTHROUGH.md",
+        "examples/first-schedule-for-a-solo-studio/WALKTHROUGH.md",
+        "reference/choosing-rotation-intervals.md",
+        "reference/logging-a-rotation.md",
+        "reference/reminders-and-the-rotation-day.md",
+        "reference/schedule-fields.md",
+        "templates/rotation-log-entry.template.md",
+        "templates/secret-rotation-schedule.template.md"
+      ],
+      "bundle_bytes": 41979,
+      "bundle_hash": "4480723cf40be81e81cc48f68fa1cfffb5ff0718b5639cd8b905c919126488a8",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "page-accessibility-checks",
+      "title": "Page Accessibility Checks",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Studio / Publishing",
+      "blurb": "Get every published page checked against one fixed accessibility list, with findings logged per page and fixes drafted for your approval, so weak alt text, broken heading order, vague link names, and failing contrast are found and settled from values instead of guessed at by eye.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/event-listing-and-guide-pages-for-a-community-site/WALKTHROUGH.md",
+        "examples/home-and-services-pages-for-a-small-studio/WALKTHROUGH.md",
+        "reference/alt-text-and-image-honesty.md",
+        "reference/contrast-from-design-values.md",
+        "reference/headings-and-link-names.md",
+        "reference/the-fixed-check-list.md",
+        "templates/fix-draft-sheet.template.md",
+        "templates/page-check-log.template.md"
+      ],
+      "bundle_bytes": 45802,
+      "bundle_hash": "131d4a167b360e14964711eb60aa3913e1e8db07abcc314c1d0ea4df52d74f3c",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "dependency-license-ledger",
+      "title": "Dependency License Ledger",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Studio / Shipping",
+      "blurb": "Ship every release knowing, from one ledger rechecked against the build, what each dependency carries and what its license asks, so no obligation goes out unrecorded.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/first-ledger-for-a-shipping-app/WALKTHROUGH.md",
+        "examples/release-recheck-that-caught-a-license-change/WALKTHROUGH.md",
+        "reference/keeping-the-ledger-current.md",
+        "reference/ledger-fields.md",
+        "reference/reading-a-license-for-the-ledger.md",
+        "reference/what-each-license-asks.md",
+        "templates/dependency-license-entry.template.md",
+        "templates/license-ledger.template.md"
+      ],
+      "bundle_bytes": 42587,
+      "bundle_hash": "5336fc2d18b883dbf25ae6762fd5dda7317732823fa1da0c472aa655ef7b4a08",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "archive-search-index",
+      "title": "Archive Search Index",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Data, Files, and Research",
+      "blurb": "Find any archived file by what it is, with a searchable index built from each file's subject, date, parties, and type and kept current as new files arrive.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/first-index-for-a-contracts-archive/WALKTHROUGH.md",
+        "examples/keeping-a-job-archive-searchable/WALKTHROUGH.md",
+        "reference/index-fields.md",
+        "reference/keeping-the-index-current.md",
+        "reference/reading-fields-from-the-record.md",
+        "reference/searching-and-checking-the-index.md",
+        "templates/archive-index.template.md",
+        "templates/index-entry.template.md"
+      ],
+      "bundle_bytes": 44660,
+      "bundle_hash": "d401f5994c7e441b76be340c2659be43989db607406e72d215780f21e527f3ce",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "seasonal-booking-calendar",
+      "title": "Seasonal Booking Calendar",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Sales",
+      "blurb": "Your seasonal rushes get planned in the quiet months: last year's own job records become a season map with an opening date and an honest slot count per season, plus an ordered waitlist kept for every season that fills.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/exterior-washing-gutters-lights/WALKTHROUGH.md",
+        "examples/leaf-and-yard-spring-fall/WALKTHROUGH.md",
+        "reference/mapping-demand-to-seasons.md",
+        "reference/opening-dates-and-capacity.md",
+        "reference/reading-past-job-records.md",
+        "reference/waitlists-that-hold.md",
+        "templates/seasonal-calendar.template.md",
+        "templates/waitlist-sheet.template.md"
+      ],
+      "bundle_bytes": 36858,
+      "bundle_hash": "6acb317e26989dfe5a6428a9cf93a911b2f90d69a4ad455aec017e3b64acda12",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "materials-price-watch",
+      "title": "Materials Price Watch",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Local Services / Money",
+      "blurb": "Your estimates stop quoting last season's prices: the materials you buy most are rechecked on a schedule from real listings at the exact quantity, every check dated and sourced, changes logged, and anything that cannot be sourced carried as a flagged placeholder, never a made-up figure.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/fence-and-deck-may-check/WALKTHROUGH.md",
+        "examples/roofing-and-lumber-march-check/WALKTHROUGH.md",
+        "reference/building-the-watch-list.md",
+        "reference/checking-prices-by-exact-quantity.md",
+        "reference/marking-figures-for-estimates.md",
+        "reference/reading-changes-and-flagging-gaps.md",
+        "templates/estimate-price-note.template.md",
+        "templates/price-watch-log.template.md"
+      ],
+      "bundle_bytes": 35014,
+      "bundle_hash": "45041066fa7f6a94deb7b431f13dd300961fb4ea048b41abc8bb2293fe6fda02",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "crew-timesheet-records",
+      "title": "Crew Timesheet Records",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Field Operations",
+      "blurb": "Pay and true job labor cost come off one sheet instead of memory: every crew member's hours are entered per job on the same day, with totals per job and per week worked in the open.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/three-person-crew-one-job-week/WALKTHROUGH.md",
+        "examples/two-jobs-split-week-corrections/WALKTHROUGH.md",
+        "reference/corrections-gaps-and-missing-days.md",
+        "reference/entering-hours-the-same-day.md",
+        "reference/rates-pay-and-job-cost.md",
+        "reference/totals-per-job-and-per-week.md",
+        "templates/job-hours-summary.template.md",
+        "templates/weekly-timesheet.template.md"
+      ],
+      "bundle_bytes": 39190,
+      "bundle_hash": "cbf0822e8877bef3d954ae5ca050982f89bc22e991491bb95c0faf723ba4fc9a",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "vehicle-and-trailer-checks",
+      "title": "Vehicle and Trailer Checks",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Field Operations",
+      "blurb": "Every work trip starts from a signed record instead of a shrug: one standard check of lights, tires, hitch and coupler, and load secured, logged per trip against the job, so a roadside failure or a load question has a record behind it.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/clean-check-haul-to-job/WALKTHROUGH.md",
+        "examples/failed-light-held-at-yard/WALKTHROUGH.md",
+        "reference/hitch-coupler-and-safety-chains.md",
+        "reference/lights-tires-and-running-gear.md",
+        "reference/load-secured-and-ready-to-roll.md",
+        "reference/when-a-check-fails.md",
+        "templates/check-log.template.md",
+        "templates/trip-check-sheet.template.md"
+      ],
+      "bundle_bytes": 35479,
+      "bundle_hash": "74d2fd5195cf45a6d8ac28f60b80928998d718d089cbe7328827d3083eb97234",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "data-entry-verification",
+      "title": "Data Entry Verification",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Data, Files, and Research",
+      "blurb": "Hand-typed records earn trust before later work stands on them: every field gets a second pass against its source, mismatches are listed by field, corrections come from the source only, and anything that cannot be read is flagged, never guessed.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/forty-eight-delivery-notes-stock-sheet/WALKTHROUGH.md",
+        "examples/one-hundred-twenty-signup-cards-contact-list/WALKTHROUGH.md",
+        "reference/comparing-field-by-field.md",
+        "reference/flagging-unreadable-fields.md",
+        "reference/mismatch-log-and-corrections.md",
+        "reference/source-is-the-authority.md",
+        "templates/mismatch-log.template.md",
+        "templates/verification-sheet.template.md"
+      ],
+      "bundle_bytes": 31228,
+      "bundle_hash": "22f34dd538bfeb46ddb61386a646542d4fa9fd9f924ddbcab958c6f89d99e2fb",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "contact-list-hygiene",
+      "title": "Contact List Hygiene",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Data, Files, and Research",
+      "blurb": "One name means one entry: duplicates are merged with every merge on record, stale entries and conflicting details are flagged for your call with both values kept, and nothing is deleted in silence.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/small-contractor-list-cleanup/WALKTHROUGH.md",
+        "examples/supplier-and-customer-list-cleanup/WALKTHROUGH.md",
+        "reference/building-the-canonical-entry.md",
+        "reference/finding-duplicates-without-guessing.md",
+        "reference/merging-and-the-merge-record.md",
+        "reference/stale-entries-and-conflict-flags.md",
+        "templates/hygiene-report.template.md",
+        "templates/merge-log.template.md"
+      ],
+      "bundle_bytes": 40711,
+      "bundle_hash": "e4f711398257e52c239bf843bb0eed5f5e026ed153d34870142adba2e1bbe054",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
     }
   ]
 }
