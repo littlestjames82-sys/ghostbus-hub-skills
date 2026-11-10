@@ -16,7 +16,7 @@ machine-readable form, so anyone can check a listing from the outside.
 ## The catalog
 
 Snapshot, Nov 9, 2026: **134 skills, 1 free and 133 paid** (paid
-skills are $12, $15, or $19), 1,232 bundle files across 32 categories,
+skills are $12, $15, or $19), 1,232 bundle files across 31 categories,
 $1,820 if bought separately. The catalog is growing in waves, so do
 not trust the snapshot count: `catalog.json` in this repo is
 regenerated from the Hub registry and republished at every wave, and
@@ -51,7 +51,6 @@ on the storefront is always the current one.
 | Local Services / Reputation | 5 | Agent Comms (Email, Marketplace, Phone) | 3 |
 | Security (Code Review, DevOps, Guardrails) | 3 | Agent Ops (10 focused lanes) | 10 |
 | Local Services / Quoting and Scoping | 2 | Agent Skills / Authoring | 1 |
-| Productivity | 1 |  |  |
 | Transport / Load Safety | 1 |  |  |
 
 ## Free skill in this repo
