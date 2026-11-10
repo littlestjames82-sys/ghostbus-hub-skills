@@ -1,5 +1,10 @@
 # GhostBus Hub Skills
 
+[![Hub skills](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Flittlestjames82-sys%2Fghostbus-hub-skills%2Fmain%2Fcatalog.json&query=%24.skills.length&label=Hub%20skills&color=blue)](https://ghostdeveloperstudio.com)
+[![Free skill](https://img.shields.io/badge/free%20skill-Agent%20Seatbelt%20Guardrails-brightgreen)](https://github.com/littlestjames82-sys/ghostbus-hub-skills/blob/main/agent-seatbelt-guardrails/SKILL.md)
+[![Hub gate](https://img.shields.io/badge/Hub%20gate-135%20of%20135%20checks-blue)](https://ghostdeveloperstudio.com)
+[![Storefront](https://img.shields.io/badge/storefront-ghostdeveloperstudio.com-orange)](https://ghostdeveloperstudio.com)
+
 Vetted agent skills from Ghost Developer Studio, sold through the
 GhostBus Hub. This repo is the public record of that catalog: the one
 free skill published in full, and the whole catalog in
@@ -11,7 +16,7 @@ machine-readable form, so anyone can check a listing from the outside.
 ## The catalog
 
 Snapshot, Nov 9, 2026: **134 skills, 1 free and 133 paid** (paid
-skills are $12, $15, or $19), 1,232 bundle files across 31 categories,
+skills are $12, $15, or $19), 1,232 bundle files across 32 categories,
 $1,820 if bought separately. The catalog is growing in waves, so do
 not trust the snapshot count: `catalog.json` in this repo is
 regenerated from the Hub registry and republished at every wave, and
@@ -25,6 +30,29 @@ delivered bundle and verify it exactly against this catalog.
 Every listing on the storefront carries the same public record: a
 dated dual-scan vetting record, its full file list, a preview taken
 from the skill itself, a worked example, and the bundle hash.
+
+For machines: fetch the catalog directly at
+https://raw.githubusercontent.com/littlestjames82-sys/ghostbus-hub-skills/main/catalog.json
+The badge at the top of this page reads its skill count from that
+file, so what it shows is what the catalog holds right now.
+
+### Browse by category
+
+Counts from the Nov 9, 2026 snapshot (134 skills). The live catalog
+on the storefront is always the current one.
+
+| Category | Skills | Category | Skills |
+| --- | ---: | --- | ---: |
+| Agent Operations | 18 | Local Services / Field Operations | 17 |
+| Data, Files, and Research | 13 | Agent Safety and Governance | 11 |
+| Local Services / Money | 11 | Creator and Audience | 10 |
+| Studio / Publishing | 9 | Studio / Shipping | 8 |
+| Local Services / Marketing | 6 | Local Services / Sales | 6 |
+| Local Services / Reputation | 5 | Agent Comms (Email, Marketplace, Phone) | 3 |
+| Security (Code Review, DevOps, Guardrails) | 3 | Agent Ops (10 focused lanes) | 10 |
+| Local Services / Quoting and Scoping | 2 | Agent Skills / Authoring | 1 |
+| Productivity | 1 |  |  |
+| Transport / Load Safety | 1 |  |  |
 
 ## Free skill in this repo
 
