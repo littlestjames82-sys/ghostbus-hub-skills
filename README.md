@@ -14,6 +14,17 @@ machine-readable form, so anyone can check a listing from the outside.
 **Live storefront:** https://ghostdeveloperstudio.com
 **Contact:** littlestjames82@gmail.com
 
+**On this page:** [The catalog](#the-catalog) ·
+[Free skill](#free-skill-in-this-repo) ·
+[Featured skills](#featured-skills) ·
+[Start in 60 seconds](#start-in-60-seconds) ·
+[How vetting works](#how-vetting-works) ·
+[What's in this repo](#whats-in-this-repo) ·
+[How buying works](#how-buying-works) ·
+[Verify a bundle yourself](#verify-a-bundle-yourself) ·
+[Sell on the Hub](#sell-on-the-hub) · [FAQ](#faq) ·
+[Related projects](#related-projects) · [About](#about)
+
 ## The catalog
 
 Snapshot, Nov 9, 2026: **134 skills, 1 free and 133 paid** (paid
@@ -36,6 +47,23 @@ For machines: fetch the catalog directly at
 https://raw.githubusercontent.com/littlestjames82-sys/ghostbus-hub-skills/main/catalog.json
 The badge at the top of this page reads its skill count from that
 file, so what it shows is what the catalog holds right now.
+
+Each entry in `catalog.json` carries these fields:
+
+| Field | What it holds |
+| --- | --- |
+| `id` | The skill's stable identifier, also its directory name in the Hub registry. |
+| `title`, `version` | Display name and the version this listing sells. |
+| `price_usd`, `pricing` | Price in dollars, and the pricing band (`free` or the paid tier). |
+| `category` | The catalog lane the skill sits in (see the category table below). |
+| `blurb` | The listing's one-line outcome statement. |
+| `files`, `file_list` | File count, and every file path in the package. |
+| `bundle_bytes` | Total size of the package's files. |
+| `bundle_hash` | The full sha256 bundle hash, computed by the recipe in "Verify a bundle yourself". |
+| `vetted` | The dated dual-scan vetting record for this exact bundle. |
+| `composition` | File counts by top-level folder in the package. |
+| `example_file` | The package's worked example, where it has one. |
+| `source` | Seller identity, and whether the package itself is published here. |
 
 ### Browse by category
 
