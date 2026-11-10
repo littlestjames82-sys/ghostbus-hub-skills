@@ -6577,6 +6577,438 @@
         "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
         "package_published": false
       }
+    },
+    {
+      "id": "multi-agent-handoff-tests",
+      "title": "Multi-Agent Handoff Tests",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Agent Operations",
+      "blurb": "A changed brief format or a repeating handoff fault stops being a guess: a fixed set of scripted cases runs the handoff cold, one plain pass rule decides it, and every failure is logged against the brief field that broke until the same case passes on retest.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/eight-cases-for-a-draft-to-review-handoff/WALKTHROUGH.md",
+        "examples/six-cases-for-an-intake-to-research-handoff/WALKTHROUGH.md",
+        "reference/building-the-case-set.md",
+        "reference/handoff-test-terms.md",
+        "reference/recording-failures-against-the-brief.md",
+        "reference/the-pass-rule-and-scoring.md",
+        "templates/handoff-test-case.template.md",
+        "templates/handoff-test-run.template.md"
+      ],
+      "bundle_bytes": 53908,
+      "bundle_hash": "0bbe5992a43637e61d45504570bc63f2a303740dc0e74fdbb062b912938a9249",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "data-quality-spot-checks",
+      "title": "Data Quality Spot Checks",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Data, Files, and Research",
+      "blurb": "You can say how many records are wrong and which rule fails most, before a customer or a payment run finds out: standing records are sampled on a cadence and checked against written quality rules, error rates are reported per rule, and each correction is routed to the record owner.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/monthly-supplier-records-check/WALKTHROUGH.md",
+        "examples/quarterly-customer-address-check/WALKTHROUGH.md",
+        "reference/choosing-a-sample.md",
+        "reference/reading-error-rates.md",
+        "reference/routing-and-closing-corrections.md",
+        "reference/writing-quality-rules.md",
+        "templates/correction-note.template.md",
+        "templates/spot-check-run.template.md"
+      ],
+      "bundle_bytes": 43812,
+      "bundle_hash": "2e61f3c36c07825ed09361159c9c5a7144f26e608fa497514bb672650e9fa5d7",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "secret-sharing-protocol",
+      "title": "Secret Sharing Protocol",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Agent Safety and Governance",
+      "blurb": "The rare share of a secret stops being a handover in a hurry: one named recipient and one stated purpose, single use or a stated expiry, the share logged by label only, and the reach revoked or the value rotated when the window closes, so no past share sits open unaccounted.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/giving-a-tool-one-afternoon-of-reach/WALKTHROUGH.md",
+        "examples/one-off-share-to-a-covering-helper/WALKTHROUGH.md",
+        "reference/choosing-the-channel-and-the-window.md",
+        "reference/closing-the-share-revoke-or-rotate.md",
+        "reference/logging-a-share-by-label.md",
+        "reference/naming-the-recipient-and-the-use.md",
+        "templates/share-log-entry.template.md",
+        "templates/share-request-and-approval.template.md"
+      ],
+      "bundle_bytes": 39874,
+      "bundle_hash": "e7f0b19a56288cd0ec8ac6f73f6d107ac4a969dd63f50139185f3125a3dcab06",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "uptime-incident-roster",
+      "title": "Uptime Incident Roster",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Studio / Shipping",
+      "blurb": "A gap in uptime cover is found in the roster and not during an outage: every coverage window carries a named holder and a named backup, the handoff between holders and the contact order are written down, and the whole roster is reviewed on a cadence.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/four-person-team-fixes-night-handoffs/WALKTHROUGH.md",
+        "examples/two-person-studio-finds-a-sunday-gap/WALKTHROUGH.md",
+        "reference/finding-gaps-and-thin-cover.md",
+        "reference/handoffs-and-contact-order.md",
+        "reference/review-cadence-and-triggers.md",
+        "reference/roster-terms-and-windows.md",
+        "templates/coverage-entry.template.md",
+        "templates/roster-record.template.md"
+      ],
+      "bundle_bytes": 42202,
+      "bundle_hash": "ee6e67578d511fa8c5285a4a560bb6738a215990528cc9c9f0271d4e67867a2a",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "docs-link-checking",
+      "title": "Docs Link Checking",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Studio / Publishing",
+      "blurb": "Readers stop landing in the wrong place: on a set cadence every link and cross-reference in the docs is followed to its target, dead or moved targets are listed per page, and each one is fixed in place or flagged with the replacement recorded beside it.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/quarterly-sweep-that-found-moved-guides/WALKTHROUGH.md",
+        "examples/release-week-check-after-a-docs-move/WALKTHROUGH.md",
+        "reference/cadence-and-coverage.md",
+        "reference/checking-a-page-step-by-step.md",
+        "reference/fix-or-flag-decisions.md",
+        "reference/link-kinds-and-targets.md",
+        "templates/link-check-record.template.md",
+        "templates/page-link-entry.template.md"
+      ],
+      "bundle_bytes": 38846,
+      "bundle_hash": "ea3b0dcdfc9487b93d80b02066a109c29c282b69963d81dbd20e6d316e652203",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "translation-glossary-keeping",
+      "title": "Translation Glossary Keeping",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Data, Files, and Research",
+      "blurb": "The same term stops being rendered two ways: one glossary record holds each term's approved rendering in each language and the context that decides between variants, and a new term enters the record only with the source it was admitted from.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/cleaning-up-after-two-variants-spread/WALKTHROUGH.md",
+        "examples/first-glossary-for-a-plant-care-guide/WALKTHROUGH.md",
+        "reference/admitting-and-retiring-terms.md",
+        "reference/checking-a-batch-against-the-glossary.md",
+        "reference/choosing-between-variants.md",
+        "reference/glossary-terms-and-entry-parts.md",
+        "templates/glossary-entry.template.md",
+        "templates/glossary-record.template.md"
+      ],
+      "bundle_bytes": 55566,
+      "bundle_hash": "ef5357eaaae0cc51950af66400d8adc794859953e10c876b47f9d3fa598309b3",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "estimate-vs-actual-review",
+      "title": "Estimate vs Actual Review",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Local Services / Money",
+      "blurb": "Closed jobs stop teaching nothing: each one is compared estimate line against actual line on a set cadence, the lines that keep running over or under are named as patterns, and the price list or scoping note adjustments those patterns support are drafted for your approval.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/deck-repair-review-that-changed-the-scope/WALKTHROUGH.md",
+        "examples/fence-repairs-monthly-pattern-review/WALKTHROUGH.md",
+        "reference/lining-up-estimate-and-actual-lines.md",
+        "reference/naming-the-recurring-patterns.md",
+        "reference/running-the-review-cadence.md",
+        "reference/turning-the-review-into-adjustments.md",
+        "templates/estimate-vs-actual-sheet.template.md",
+        "templates/review-pattern-and-adjustment-log.template.md"
+      ],
+      "bundle_bytes": 42655,
+      "bundle_hash": "3105d7a14ad780bfe79fa1d1cd53303ac59ec674471ec7c9910487c3ef9a73c5",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "local-event-sponsorship-log",
+      "title": "Local Event Sponsorship Log",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Marketing",
+      "blurb": "Every sponsorship sits in one commitment log, what you promised to give and what the event promised back, with dates and deliverables tracked on both sides, so the renewal is decided from what actually came back instead of from memory.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/county-fair-banner-and-booth/WALKTHROUGH.md",
+        "examples/youth-baseball-season-not-renewed/WALKTHROUGH.md",
+        "reference/logging-what-actually-came-back.md",
+        "reference/making-the-renewal-decision-from-the-record.md",
+        "reference/recording-what-was-promised-each-way.md",
+        "reference/tracking-dates-and-deliverables.md",
+        "templates/renewal-review.template.md",
+        "templates/sponsorship-log.template.md"
+      ],
+      "bundle_bytes": 38306,
+      "bundle_hash": "e701834d4c0c9eeb9a6537f084bd92726ff5995b9d5c3ac6384eeceb18953b34",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "equipment-rental-scheduling",
+      "title": "Equipment Rental Scheduling",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Field Operations",
+      "blurb": "Rented equipment stops being double counted: every booking sits on one schedule with its window, pickup and return times, and the job it serves, and every change is checked against that schedule, so a clash is caught on the page before it is caught on the morning.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/chipper-extension-that-held/WALKTHROUGH.md",
+        "examples/mini-excavator-clash-when-a-job-moved/WALKTHROUGH.md",
+        "reference/booking-a-rental-window.md",
+        "reference/catching-and-working-a-clash.md",
+        "reference/extending-or-shortening-a-rental.md",
+        "reference/pickup-and-return-times.md",
+        "templates/booking-and-change-note.template.md",
+        "templates/rental-schedule.template.md"
+      ],
+      "bundle_bytes": 36304,
+      "bundle_hash": "ae159174441868494952a932d06b4a1fb9b9e12713bf557b1683fada2534afe4",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "winterization-checklist-runs",
+      "title": "Winterization Checklist Runs",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Field Operations",
+      "blurb": "Each property gets the same winterization run every season, taps, pipes, heating, and gutters worked in order and marked as they stand, with findings and follow-ups written on the run record, so next season starts from this season's record instead of from memory.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/single-family-house-first-run/WALKTHROUGH.md",
+        "examples/small-rental-duplex-with-open-items/WALKTHROUGH.md",
+        "reference/heating-and-gutter-checks.md",
+        "reference/recording-findings-and-follow-ups.md",
+        "reference/taps-pipes-and-freeze-risk-notes.md",
+        "reference/the-full-winterization-checklist.md",
+        "templates/follow-up-and-next-season-summary.template.md",
+        "templates/winterization-run-record.template.md"
+      ],
+      "bundle_bytes": 46996,
+      "bundle_hash": "185c037eb5cd45947c517db6c6a0fe3614bc1c2fa24f68f626e3be3fedf1bd5d",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "quote-photo-attachments",
+      "title": "Quote Photo Attachments",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Sales",
+      "blurb": "The photos that go out with a quote are chosen from the job's own record and labeled to the quote line each one supports, and anything the record does not back is held back with its reason logged, so the customer can match every photo to its line.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/deck-repair-quote-with-labeled-photos/WALKTHROUGH.md",
+        "examples/gutter-quote-with-a-photo-left-out/WALKTHROUGH.md",
+        "reference/checking-the-attachment-set-before-it-goes-out.md",
+        "reference/choosing-photos-from-the-job-record.md",
+        "reference/holding-back-photos-the-record-does-not-back.md",
+        "reference/labeling-each-photo-to-its-quote-line.md",
+        "templates/photo-selection-log.template.md",
+        "templates/quote-attachment-sheet.template.md"
+      ],
+      "bundle_bytes": 34016,
+      "bundle_hash": "db5ceebd51af8ac29e5a562a94f3acd4d98c4130374788806674cd1fba40d90d",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "short-video-caption-checks",
+      "title": "Short Video Caption Checks",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Creator and Audience",
+      "blurb": "Captions stop quietly changing what a video says: every caption line is checked against the spoken words before posting, errors are listed per video and fixed in the caption file itself, and names and numbers get a second pass of their own.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/kitchen-tip-name-and-time-fixed/WALKTHROUGH.md",
+        "examples/workshop-demo-price-and-place-fixed/WALKTHROUGH.md",
+        "reference/checking-captions-against-the-audio.md",
+        "reference/fixing-errors-in-the-caption-file.md",
+        "reference/listing-errors-per-video.md",
+        "reference/names-numbers-and-places-second-pass.md",
+        "templates/caption-check-sheet.template.md",
+        "templates/caption-error-list.template.md"
+      ],
+      "bundle_bytes": 34102,
+      "bundle_hash": "bf78a117d253300e06eb63d5f68f5f315adba407e40e3ea0463d0bbd02b793ce",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
     }
   ]
 }
