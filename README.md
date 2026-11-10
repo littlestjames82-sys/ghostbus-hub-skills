@@ -1,7 +1,30 @@
 # GhostBus Hub Skills
 
-The public home of the free skill from the GhostBus Hub catalog, plus
-the catalog itself in machine-readable form.
+Vetted agent skills from Ghost Developer Studio, sold through the
+GhostBus Hub. This repo is the public record of that catalog: the one
+free skill published in full, and the whole catalog in
+machine-readable form, so anyone can check a listing from the outside.
+
+**Live storefront:** https://ghostdeveloperstudio.com
+**Contact:** littlestjames82@gmail.com
+
+## The catalog
+
+Snapshot, Nov 9, 2026: **134 skills, 1 free and 133 paid** (paid
+skills are $12, $15, or $19), 1,232 bundle files across 31 categories,
+$1,820 if bought separately. The catalog is growing in waves, so do
+not trust the snapshot count: `catalog.json` in this repo is
+regenerated from the Hub registry and republished at every wave, and
+the registry behind it is hash-verified on every run of the Hub's
+135-check, 14-suite gate.
+
+`catalog.json` lists every skill's id, version, price, category,
+blurb, full file list, and full bundle hash, so anyone can hash a
+delivered bundle and verify it exactly against this catalog.
+
+Every listing on the storefront carries the same public record: a
+dated dual-scan vetting record, its full file list, a preview taken
+from the skill itself, a worked example, and the bundle hash.
 
 ## Free skill in this repo
 
@@ -14,33 +37,33 @@ Install it with the standard skills CLI (tested Nov 4, 2026):
 
     npx skills add littlestjames82-sys/ghostbus-hub-skills
 
-## The full catalog
+## What's in this repo
 
-`catalog.json` lists all 122 first-party skills from the Hub: ids,
-versions, prices, categories, blurbs, file counts, and full bundle hashes,
-so anyone can hash a bundle and verify it exactly against this
-catalog. The registry behind it is hash-verified on every run of
-the Hub's 135-check gate.
+| Path | What it is |
+| --- | --- |
+| `catalog.json` | The full Hub catalog in machine-readable form: ids, versions, prices, categories, blurbs, file lists, and full bundle hashes. |
+| `agent-seatbelt-guardrails/SKILL.md` | The free Agent Seatbelt Guardrails skill, published in full. |
+| `README.md` | This page. |
 
-The other 121 skills are sold through the Hub, where every listing
-carries a dated vetting record, its full file list, a preview from
-the skill itself, and the bundle hash:
+That is the whole tree, on purpose. The paid packages are **not**
+published here: a public repo would make their full text free. Their
+public record lives in `catalog.json`, and the packages themselves
+are delivered with purchase.
 
-https://muse.ai/s/ghostbus-hub-da74krxm7h3xn/0kAjDkV3_AmPSjUaFmLWeUHZv7boE__UsAFG7frI7-g
+## How buying works
 
-## Sources and repositories
+Paid skills are bought through the storefront at
+https://ghostdeveloperstudio.com. Today that means Cash App: pay
+$RyanCotten2 the skill's exact listed price, put the skill name and
+your delivery email in the payment note, then email
+littlestjames82@gmail.com from that same address so the payment can
+be matched. Each payment is confirmed by hand, and the skill is then
+delivered by email: the bundle plus a license key.
 
-Every skill is first-party, written and maintained by Ghost
-Developer Studio, and every listing's public record (file list,
-bundle size, and full bundle hash) lives in `catalog.json` here.
-
-- The free **Agent Seatbelt Guardrails** package is published in
-  full in this repository, under `agent-seatbelt-guardrails/`.
-- The two Seatbelt skills come from the **Agent Seatbelt** project:
-  https://github.com/littlestjames82-sys/agent-seatbelt
-- The paid packages are not published. Their full text is delivered
-  with purchase, and this catalog is their public record, so what
-  was vetted and listed can still be checked from the outside.
+License terms, in short: the license is permanent, personal, and
+non-transferable, and it covers the version bought. Refunds are
+goodwill, per the Hub terms published on the storefront. Card
+checkout opens at launch; Cash App is the way to buy today.
 
 ## Verify a bundle yourself
 
@@ -54,9 +77,27 @@ anyone can reproduce it from a package's files:
 3. The hex digest is the bundle hash. If it matches the catalog,
    the bundle is exactly what was vetted and listed.
 
+## Sell on the Hub
+
+Every skill here is first-party for now, written and maintained by
+Ghost Developer Studio. Third-party seller terms are published on
+the storefront as final v1.1: the Hub keeps a 20% commission and the
+seller receives 80%, and every submission is scanned and reviewed
+before it can list. Public submissions open at launch; questions go
+to littlestjames82@gmail.com.
+
+## Related projects
+
+- **Agent Seatbelt**, the governed tool-call layer the two Seatbelt
+  skills come from: https://github.com/littlestjames82-sys/agent-seatbelt
+- **GhostBus**, the agent message bus and MCP server the Hub runs
+  on: https://github.com/littlestjames82-sys/ghostbus
+- **Ghost Hands**, the governed browser tool:
+  https://github.com/littlestjames82-sys/ghost-hands
+
 ## About
 
 GhostBus Hub is Ghost Developer Studio's curated marketplace for
-agent skills: 122 skills, all first-party for now, every package
-scanned before listing with a human reading the findings, and terms
-published at a 20% commission (the seller receives 80%).
+agent skills. Ghost Developer Studio is a one-person studio in
+Oakdale, Tennessee, building developer tools, apps, and AI systems
+since 2022. The studio's site is https://ghostdeveloperstudio.com.
