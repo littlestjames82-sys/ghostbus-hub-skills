@@ -16,13 +16,13 @@ Install it with the standard skills CLI (tested Nov 4, 2026):
 
 ## The full catalog
 
-`catalog.json` lists all 74 first-party skills from the Hub: ids,
+`catalog.json` lists all 86 first-party skills from the Hub: ids,
 versions, prices, categories, blurbs, file counts, and full bundle hashes,
 so anyone can hash a bundle and verify it exactly against this
 catalog. The registry behind it is hash-verified on every run of
 the Hub's 135-check gate.
 
-The other 73 skills are sold through the Hub, where every listing
+The other 85 skills are sold through the Hub, where every listing
 carries a dated vetting record, its full file list, a preview from
 the skill itself, and the bundle hash:
 
@@ -57,6 +57,6 @@ anyone can reproduce it from a package's files:
 ## About
 
 GhostBus Hub is Ghost Developer Studio's curated marketplace for
-agent skills: 74 skills, all first-party for now, every package
+agent skills: 86 skills, all first-party for now, every package
 scanned before listing with a human reading the findings, and terms
 published at a 20% commission (the seller receives 80%).
