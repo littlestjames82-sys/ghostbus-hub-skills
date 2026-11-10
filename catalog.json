@@ -5281,6 +5281,438 @@
         "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
         "package_published": false
       }
+    },
+    {
+      "id": "agent-handover-briefs",
+      "title": "Agent Handover Briefs",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Agent Operations",
+      "blurb": "Every change of run or operator starts from a written brief instead of a cold start: the state as checked, the work done, the decisions made, the open items with a holder and a next step, and what to watch, so nothing has to be re-derived or guessed.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/a-weekend-cover-brief-for-a-repair-shop-inbox/WALKTHROUGH.md",
+        "examples/an-overnight-run-handed-to-the-morning-operator/WALKTHROUGH.md",
+        "reference/brief-fields.md",
+        "reference/keeping-and-correcting-briefs.md",
+        "reference/reading-a-brief-on-arrival.md",
+        "reference/when-to-write-a-brief.md",
+        "templates/handover-brief.template.md",
+        "templates/handover-index.template.md"
+      ],
+      "bundle_bytes": 52009,
+      "bundle_hash": "e0131c759f9480a3de32f7af7aa4eddcff4a0bef98f1e4bee127da4123df35a6",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "approval-queue-management",
+      "title": "Approval Queue Management",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Agent Safety and Governance",
+      "blurb": "Nothing sensitive sits undecided in silence: every pending approval is kept on one record with its age and its owner, and each item ends decided, escalated, or expired on a rule you set, with the queue swept on a schedule.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/a-weekly-sweep-that-cleared-a-backlog/WALKTHROUGH.md",
+        "examples/an-item-that-expired-on-its-rule/WALKTHROUGH.md",
+        "reference/aging-and-expiry-rules.md",
+        "reference/escalation-routes.md",
+        "reference/queue-item-fields.md",
+        "reference/reviewing-and-clearing-the-queue.md",
+        "templates/approval-queue.template.md",
+        "templates/queue-item.template.md"
+      ],
+      "bundle_bytes": 42193,
+      "bundle_hash": "6187fec23b30ebfb0c672aaa385bdaf8dd719494d72e30f1e98bda46d845de02",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "audit-trail-exports",
+      "title": "Audit Trail Exports",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Agent Safety and Governance",
+      "blurb": "A reviewer who cannot see your live system still gets the full story: your decision and proof trails exported into one dated packet, checked entry by entry before it is shared, with every gap named instead of smoothed over.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/a-handover-packet-when-the-live-system-was-gone/WALKTHROUGH.md",
+        "examples/exporting-a-month-of-approvals-for-an-outside-review/WALKTHROUGH.md",
+        "reference/dating-freezing-and-keeping-exports.md",
+        "reference/naming-gaps-and-missing-proof.md",
+        "reference/packet-contents-and-order.md",
+        "reference/proof-checks-before-you-share.md",
+        "templates/export-packet.template.md",
+        "templates/export-request-and-receipt.template.md"
+      ],
+      "bundle_bytes": 51521,
+      "bundle_hash": "973190cb7b21b4d1d26f144eeca30196fe55f0f1b9a12527a869eab9e7677542",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "release-checklist-runner",
+      "title": "Release Checklist Runner",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Studio / Shipping",
+      "blurb": "A release stops depending on memory: it runs step by step against its written checklist, each step evidenced and signed off in order, holds named in the open, and one run record kept per release.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/a-release-held-at-the-announce-step/WALKTHROUGH.md",
+        "examples/a-small-app-release-run-in-order/WALKTHROUGH.md",
+        "reference/checklist-shape-and-step-evidence.md",
+        "reference/closing-and-keeping-the-run-record.md",
+        "reference/holds-skips-and-failed-steps.md",
+        "reference/running-steps-in-order.md",
+        "templates/release-checklist.template.md",
+        "templates/release-run-record.template.md"
+      ],
+      "bundle_bytes": 39995,
+      "bundle_hash": "c673ad41712d45664b07ba1e9caf6977af4434516f147fdbec76cb2547503e7e",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "document-version-control",
+      "title": "Document Version Control",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Data, Files, and Research",
+      "blurb": "Nobody works from the wrong copy again: every living document has one current version named in a register, superseded copies marked and archived, and one change log line for every version.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/client-intake-pack-brought-under-control/WALKTHROUGH.md",
+        "examples/price-list-corrected-without-losing-history/WALKTHROUGH.md",
+        "reference/choosing-what-needs-control.md",
+        "reference/marking-and-archiving-superseded-copies.md",
+        "reference/version-names-and-numbers.md",
+        "reference/writing-the-change-log.md",
+        "templates/change-log-entry.template.md",
+        "templates/version-register.template.md"
+      ],
+      "bundle_bytes": 45112,
+      "bundle_hash": "f4eb7d3a00e878c7b7b3d1cd3b9a7968f7c9c94a0d3442c0285edcc201f7c755",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "meeting-agenda-builder",
+      "title": "Meeting Agenda Builder",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Agent Operations",
+      "blurb": "Meetings start from the record instead of from memory: the agenda is built before the meeting from the open items and decisions actually owed, each item with one owner and the decision or input it needs.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/launch-readiness-meeting-with-decisions-owed/WALKTHROUGH.md",
+        "examples/weekly-ops-review-built-from-open-items/WALKTHROUGH.md",
+        "reference/agenda-item-fields.md",
+        "reference/gathering-open-items-from-the-record.md",
+        "reference/timing-and-ordering-the-agenda.md",
+        "reference/what-belongs-on-an-agenda.md",
+        "templates/agenda-item.template.md",
+        "templates/meeting-agenda.template.md"
+      ],
+      "bundle_bytes": 39600,
+      "bundle_hash": "a946f0afca31ec61fafc962da81301c1f08bb0ead58cabdcbb8cdb37ee4d9c5d",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "inbox-zero-triage",
+      "title": "Inbox Zero Triage",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Data, Files, and Research",
+      "blurb": "An inbox worked in full passes stops being a pile: every message lands in one of four buckets, act now, file, waiting, or discard, the closing counts add back to the start, and waiting items carry an owner and a follow-up date, so nothing important is quietly dropped.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/contractor-inbox-monday/WALKTHROUGH.md",
+        "examples/freelance-desk-friday/WALKTHROUGH.md",
+        "reference/defining-the-four-buckets.md",
+        "reference/handling-waiting-and-follow-up.md",
+        "reference/keeping-nothing-dropped.md",
+        "reference/running-a-triage-pass.md",
+        "templates/triage-pass-log.template.md",
+        "templates/waiting-list.template.md"
+      ],
+      "bundle_bytes": 30392,
+      "bundle_hash": "b7dfd15416871c9bc2947a69cdb3c7ddc2ef7672e8b9d24d92114543936e3c1d",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "recurring-task-scheduler",
+      "title": "Recurring Task Scheduler",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Agent Operations",
+      "blurb": "Recurring work stops failing quietly: every job sits on one schedule record with a named owner, a cadence with a due window, and proof of its last run, and any due job with no proof stands marked missed in plain sight.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/monthly-close-review/WALKTHROUGH.md",
+        "examples/weekly-ops-checks-review/WALKTHROUGH.md",
+        "reference/building-the-schedule-record.md",
+        "reference/cadences-and-due-windows.md",
+        "reference/last-run-proof-and-gaps.md",
+        "reference/reviewing-missed-runs.md",
+        "templates/run-proof-note.template.md",
+        "templates/schedule-record.template.md"
+      ],
+      "bundle_bytes": 33560,
+      "bundle_hash": "f226a3d4f7482374f2173d8c66d758844cf32b9f00b7e6f7f714b9ead3a2a0f4",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "price-list-maintenance",
+      "title": "Price List Maintenance",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Local Services / Money",
+      "blurb": "Your quotes stop resting on memory: your own sell prices for services sit on one written list reviewed on a set cadence, with every change dated and carrying its reason, so each new quote draws from the one current price.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/midyear-update-hauling-and-repairs/WALKTHROUGH.md",
+        "examples/quarterly-review-yard-care/WALKTHROUGH.md",
+        "reference/building-the-price-list.md",
+        "reference/recording-changes-with-reasons.md",
+        "reference/setting-the-review-cadence.md",
+        "reference/using-the-list-in-quotes.md",
+        "templates/price-change-log.template.md",
+        "templates/price-list.template.md"
+      ],
+      "bundle_bytes": 34105,
+      "bundle_hash": "edc593298c418373609217ae32b47cb25671e307cd2ab28f93634098b2164a33",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "customer-offboarding-pack",
+      "title": "Customer Offboarding Pack",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Sales",
+      "blurb": "A customer relationship ends as a finished record instead of an open thread: the final account settled with the arithmetic shown, records handed over on a dated list, standing arrangements closed with end dates, and a plain closing note drafted for your approval.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/landscaping-season-close/WALKTHROUGH.md",
+        "examples/regular-cleaning-close/WALKTHROUGH.md",
+        "reference/closing-access-and-standing-arrangements.md",
+        "reference/handing-over-records-and-deliverables.md",
+        "reference/settling-the-final-account.md",
+        "reference/writing-the-closing-note.md",
+        "templates/closing-note.template.md",
+        "templates/offboarding-checklist.template.md"
+      ],
+      "bundle_bytes": 31759,
+      "bundle_hash": "b0f042e1f2dac3cc2a4127201dced2b86a46ab2c20de7fbe927b990fa138c45c",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "tax-document-gathering",
+      "title": "Tax Document Gathering",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Local Services / Money",
+      "blurb": "Year-end stops being a search: tax documents are filed into one indexed folder as they arrive all year, a monthly sweep names anything missing while it can still be found, and the handover to your accountant is the folder itself. It organizes documents only and gives no tax advice.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/full-year-lawn-and-cleanout/WALKTHROUGH.md",
+        "examples/midyear-shoebox-start/WALKTHROUGH.md",
+        "reference/document-classes-and-labels.md",
+        "reference/filing-on-arrival.md",
+        "reference/folder-layout-and-the-index.md",
+        "reference/monthly-sweep-and-missing-documents.md",
+        "templates/document-index.template.md",
+        "templates/handover-note.template.md"
+      ],
+      "bundle_bytes": 46264,
+      "bundle_hash": "917ae9d0918fe2230589916481ca4d622f47695241d188136e8e38754f558c44",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "social-proof-collector",
+      "title": "Social Proof Collector",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Creator and Audience",
+      "blurb": "Praise you already earned stops getting lost or misused: reviews, messages, and comments are gathered into one library with the permission state recorded on each item, so a testimonial goes public only when its record covers that use.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/creator-course-feedback/WALKTHROUGH.md",
+        "examples/local-workshop-client-notes/WALKTHROUGH.md",
+        "reference/checking-coverage-before-any-use.md",
+        "reference/finding-praise-that-already-exists.md",
+        "reference/keeping-the-library-honest-and-current.md",
+        "reference/recording-permission-per-item.md",
+        "templates/proof-library-entry.template.md",
+        "templates/public-use-check.template.md"
+      ],
+      "bundle_bytes": 34581,
+      "bundle_hash": "c93f4fdce327754c4680621d9e76687f1552460ef1e20df2d7cce44162cbdd07",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
     }
   ]
 }
