@@ -4849,6 +4849,438 @@
         "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
         "package_published": false
       }
+    },
+    {
+      "id": "incident-postmortem-writing",
+      "title": "Incident Postmortem Writing",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Studio / Publishing",
+      "blurb": "A closed incident gets one true account instead of two memories: the timeline built from the record and the logs as they actually ran, what held and what failed in plain words, and every fix carried out with an owner, a date, and the check that will show it landed.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/checkout-timeout-postmortem.md",
+        "examples/upload-limit-postmortem.md",
+        "reference/building-the-timeline.md",
+        "reference/fixes-with-owners-and-dates.md",
+        "reference/sources-gaps-and-plain-words.md",
+        "reference/what-held-and-what-failed.md",
+        "templates/fix-list.template.md",
+        "templates/postmortem.template.md"
+      ],
+      "bundle_bytes": 56382,
+      "bundle_hash": "1be041173f0886484352e34cc62789d52391d13e6452468531965133de4727ca",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "agent-workload-balancing",
+      "title": "Agent Workload Balancing",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Agent Operations",
+      "blurb": "Work stops piling onto one agent while another sits idle: the overloaded and the underused are read from the capacity record, each move is proposed with its reason and approved before it happens, and the result is checked against what the move promised.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/overloaded-lookup-agent-relieved-by-two-moves/WALKTHROUGH.md",
+        "examples/peak-week-rebalance-that-held-quality/WALKTHROUGH.md",
+        "reference/balance-terms-and-counts.md",
+        "reference/checking-a-move-after-it-happens.md",
+        "reference/proposing-and-approving-a-move.md",
+        "reference/reading-the-capacity-record-for-moves.md",
+        "templates/balance-plan.template.md",
+        "templates/move-proposal.template.md"
+      ],
+      "bundle_bytes": 43603,
+      "bundle_hash": "e1ccd049fa31c6400515c7354828efd6a329aa5e01f73154e123bb079886f513",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "third-party-skill-watch",
+      "title": "Third-Party Skill Watch",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Agent Safety and Governance",
+      "blurb": "A third-party skill your fleet depends on never changes under you unnoticed: every package sits in a pinned register, checked against its source on a schedule, and each update is reviewed file by file against the pinned copy before anyone adopts it.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/a-small-patch-reviewed-and-adopted.md",
+        "examples/an-update-held-for-a-wider-reach.md",
+        "reference/holds-deferrals-and-retiring.md",
+        "reference/reviewing-an-update-before-adoption.md",
+        "reference/the-dependency-register.md",
+        "reference/watch-cadence-and-sources.md",
+        "templates/dependency-register.template.md",
+        "templates/update-review.template.md"
+      ],
+      "bundle_bytes": 51388,
+      "bundle_hash": "53aac98f58ca6d1e638748ea195de2846348e71ea15d01309b60ec65125e945a",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "release-candidate-freeze",
+      "title": "Release Candidate Freeze",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Studio / Shipping",
+      "blurb": "The build that ships is the build that was checked: one named candidate is frozen with what is in and what is held out both written down, and a late change gets in only through a written exception the operator approves.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/freeze-with-one-admitted-and-one-held-out.md",
+        "examples/freeze-with-one-approved-late-fix.md",
+        "reference/closing-and-lifting-the-freeze.md",
+        "reference/freeze-record-fields.md",
+        "reference/the-exception-route.md",
+        "reference/what-counts-as-in-or-held-out.md",
+        "templates/freeze-record.template.md",
+        "templates/late-change-exception.template.md"
+      ],
+      "bundle_bytes": 50504,
+      "bundle_hash": "11297c65d88ee23eb3290d302bbe069a1ced3a1d23b451c40cf51038170b16d8",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "visual-evidence-records",
+      "title": "Visual Evidence Records",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Data, Files, and Research",
+      "blurb": "A screenshot kept as evidence still means something a month later: every capture is logged at the time with what it shows, when it was taken, and which build or record it belongs to, and filed against the record it supports.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/bug-report-checkout-failure/WALKTHROUGH.md",
+        "examples/job-record-delivery-dispute/WALKTHROUGH.md",
+        "reference/capture-log-fields.md",
+        "reference/checking-and-correcting-records.md",
+        "reference/naming-and-filing-captures.md",
+        "reference/what-makes-a-capture-trustworthy.md",
+        "templates/capture-log-entry.template.md",
+        "templates/evidence-index.template.md"
+      ],
+      "bundle_bytes": 49530,
+      "bundle_hash": "e06b4ea2893bb236207bc3bf246bf8f15c7fe0a95b36081b20722dcb8b936862",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "bulk-file-conversion",
+      "title": "Bulk File Conversion",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Data, Files, and Research",
+      "blurb": "A pile of files changes format without losing any in silence: the batch runs under a written plan the operator approved, every failure is listed by name, the counts in and out are reconciled, and the originals stay untouched until the batch is signed off.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/course-handouts-doc-to-pdf/WALKTHROUGH.md",
+        "examples/supplier-invoices-pdf-to-sheet/WALKTHROUGH.md",
+        "reference/failures-spot-checks-and-reconciliation.md",
+        "reference/formats-and-what-conversion-can-lose.md",
+        "reference/originals-approval-and-handover.md",
+        "reference/writing-the-conversion-plan.md",
+        "templates/batch-record.template.md",
+        "templates/conversion-plan.template.md"
+      ],
+      "bundle_bytes": 47668,
+      "bundle_hash": "bf36b5f5c12b4c3dc3a701e9502eb7063f5a71e242336b7fcf3e7f828c55fa6e",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "quote-expiry-and-renewal",
+      "title": "Quote Expiry and Renewal",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Sales",
+      "blurb": "A lapsed quote never quietly comes back at a stale price: every quote carries an honest expiry date, and when one lapses the renewal is rebuilt line by line from your current price record and held for your approval, with the new figure and the change shown in the open.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/fence-repair-renewal-after-a-rise/WALKTHROUGH.md",
+        "examples/porch-step-renewal-that-closed/WALKTHROUGH.md",
+        "reference/closing-and-recording-expired-quotes.md",
+        "reference/rebuilding-the-renewal-from-current-prices.md",
+        "reference/setting-an-honest-expiry-date.md",
+        "reference/writing-the-renewal-note.md",
+        "templates/quote-expiry-log.template.md",
+        "templates/renewed-quote.template.md"
+      ],
+      "bundle_bytes": 35554,
+      "bundle_hash": "ca58f79adbede32a8d934a62973fec9376ca03dc5c967e6489d333bf32466949",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "job-cancellation-handling",
+      "title": "Job Cancellation Handling",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Local Services / Sales",
+      "blurb": "A cancelled job ends as a finished record instead of a standing dispute: the deposit is settled exactly as the written terms say, every materials line is accounted for, the refund is worked in the open, and the customer gets a plain way back.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/fence-build-cancelled-after-materials/WALKTHROUGH.md",
+        "examples/roof-valley-repair-cancelled-early/WALKTHROUGH.md",
+        "reference/accounting-for-materials-bought.md",
+        "reference/reading-the-written-terms.md",
+        "reference/releasing-the-slot-and-offering-rebook.md",
+        "reference/working-the-settlement-figures.md",
+        "templates/cancellation-close-out-record.template.md",
+        "templates/cancellation-note-to-customer.template.md"
+      ],
+      "bundle_bytes": 33938,
+      "bundle_hash": "b5b40bc6966cf3273780c7ea351d0393a44256dc7f42e9d29462ffbe234aba1b",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "year-end-money-packet",
+      "title": "Year-End Money Packet",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Local Services / Money",
+      "blurb": "Year-end stops being a rebuild from scraps: the year's income by source, expenses by class, and vehicle totals are assembled into one packet with every total worked in the open and every gap named as a gap, ready to hand to your accountant.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/firewood-and-hauling-mixed-records-packet.md",
+        "examples/solo-yard-operator-full-year-packet.md",
+        "reference/gathering-the-year-records.md",
+        "reference/income-by-source-and-expenses-by-class.md",
+        "reference/naming-gaps-and-staying-inside-the-records.md",
+        "reference/vehicle-totals-from-the-log.md",
+        "templates/gap-and-handover-note.template.md",
+        "templates/year-end-packet.template.md"
+      ],
+      "bundle_bytes": 42155,
+      "bundle_hash": "b67eee30a76cba060a5981085d2f87883521feec095db031389451ec9722bc57",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "dump-and-disposal-runs",
+      "title": "Dump and Disposal Runs",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Field Operations",
+      "blurb": "Disposal stops being the cost that lands nowhere: every run is planned from the job records, the fee is taken from the site receipt, and each job's share is filed on its own record so the job lines add back to the receipt total.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/shared-run-three-jobs/WALKTHROUGH.md",
+        "examples/single-job-roof-tear-off/WALKTHROUGH.md",
+        "reference/filing-the-run-against-the-jobs.md",
+        "reference/planning-the-run-from-the-jobs.md",
+        "reference/recording-the-receipt-and-the-fee.md",
+        "reference/splitting-a-shared-run-across-jobs.md",
+        "templates/job-disposal-line.template.md",
+        "templates/run-plan-and-record.template.md"
+      ],
+      "bundle_bytes": 34376,
+      "bundle_hash": "ee1fe0a9b7e2ce238ed691edbabd6fa46731abefe099652f698af3b8bbc2be78",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "warranty-claims-packet",
+      "title": "Warranty Claims Packet",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Local Services / Money",
+      "blurb": "A warranty claim starts from the paper, not from memory: proof of purchase, the warranty window checked in the open, dated photos of the failure as found, and the claim drafted in the maker's own terms, tracked until it closes.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/circular-saw-motor-failure-claim.md",
+        "examples/deck-board-peeling-claim.md",
+        "reference/drafting-in-the-makers-terms.md",
+        "reference/photos-of-the-failure.md",
+        "reference/proof-of-purchase-and-dates.md",
+        "reference/tracking-the-claim-to-close.md",
+        "templates/claim-packet.template.md",
+        "templates/claim-tracking-log.template.md"
+      ],
+      "bundle_bytes": 41063,
+      "bundle_hash": "ec522ee9233ab683e7534001644eb08eb508b76935597e0b7c401b5e8685caaf",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "form-letter-library",
+      "title": "Form Letter Library",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Data, Files, and Research",
+      "blurb": "The letters you send again and again stop drifting: each one lives as a checked template that names its purpose and the facts it requires, filled from the record at send time, so no letter goes out carrying a claim you cannot back that day.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/estimate-follow-up-and-balance-note/WALKTHROUGH.md",
+        "examples/schedule-change-and-completion-letters/WALKTHROUGH.md",
+        "reference/checking-claims-before-sending.md",
+        "reference/filling-facts-from-the-record.md",
+        "reference/listing-required-facts.md",
+        "reference/naming-each-letters-purpose.md",
+        "templates/form-letter-entry.template.md",
+        "templates/letter-draft-from-template.template.md"
+      ],
+      "bundle_bytes": 29173,
+      "bundle_hash": "804b8bb9d943243166a2ae44ed432b38a84fa05a0edbf695dcf049a6e754ed6a",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
     }
   ]
 }
