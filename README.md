@@ -27,9 +27,9 @@ machine-readable form, so anyone can check a listing from the outside.
 
 ## The catalog
 
-Snapshot, Nov 9, 2026: **134 skills, 1 free and 133 paid** (paid
-skills are $12, $15, or $19), 1,232 bundle files across 31 categories,
-$1,820 if bought separately. The catalog is growing in waves, so do
+Snapshot, Nov 9, 2026: **146 skills, 1 free and 145 paid** (paid
+skills are $12, $15, or $19), 1,340 bundle files across 31 categories,
+$1,976 if bought separately. The catalog is growing in waves, so do
 not trust the snapshot count: `catalog.json` in this repo is
 regenerated from the Hub registry and republished at every wave, and
 the registry behind it is hash-verified on every run of the Hub's
@@ -67,16 +67,16 @@ Each entry in `catalog.json` carries these fields:
 
 ### Browse by category
 
-Counts from the Nov 9, 2026 snapshot (134 skills). The live catalog
+Counts from the Nov 9, 2026 snapshot (146 skills). The live catalog
 on the storefront is always the current one.
 
 | Category | Skills | Category | Skills |
 | --- | ---: | --- | ---: |
-| Agent Operations | 18 | Local Services / Field Operations | 17 |
-| Data, Files, and Research | 13 | Agent Safety and Governance | 11 |
-| Local Services / Money | 11 | Creator and Audience | 10 |
-| Studio / Publishing | 9 | Studio / Shipping | 8 |
-| Local Services / Marketing | 6 | Local Services / Sales | 6 |
+| Agent Operations | 19 | Local Services / Field Operations | 18 |
+| Data, Files, and Research | 16 | Agent Safety and Governance | 12 |
+| Local Services / Money | 13 | Creator and Audience | 10 |
+| Studio / Publishing | 10 | Studio / Shipping | 9 |
+| Local Services / Marketing | 6 | Local Services / Sales | 8 |
 | Local Services / Reputation | 5 | Agent Comms (Email, Marketplace, Phone) | 3 |
 | Security (Code Review, DevOps, Guardrails) | 3 | Agent Ops (10 focused lanes) | 10 |
 | Local Services / Quoting and Scoping | 2 | Agent Skills / Authoring | 1 |
