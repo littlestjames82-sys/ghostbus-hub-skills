@@ -4,6 +4,7 @@
 [![Free skill](https://img.shields.io/badge/free%20skill-Agent%20Seatbelt%20Guardrails-brightgreen)](https://github.com/littlestjames82-sys/ghostbus-hub-skills/blob/main/agent-seatbelt-guardrails/SKILL.md)
 [![Hub gate](https://img.shields.io/badge/Hub%20gate-135%20of%20135%20checks-blue)](https://ghostdeveloperstudio.com)
 [![Storefront](https://img.shields.io/badge/storefront-ghostdeveloperstudio.com-orange)](https://ghostdeveloperstudio.com)
+[![Last commit](https://img.shields.io/github/last-commit/littlestjames82-sys/ghostbus-hub-skills)](https://github.com/littlestjames82-sys/ghostbus-hub-skills/commits/main)
 
 Vetted agent skills from Ghost Developer Studio, sold through the
 GhostBus Hub. This repo is the public record of that catalog: the one
@@ -64,6 +65,48 @@ Install it with the standard skills CLI (tested Nov 4, 2026):
 
     npx skills add littlestjames82-sys/ghostbus-hub-skills
 
+## Featured skills
+
+A few listings that show the range of the catalog. Every blurb below
+is the listing's own, taken from `catalog.json`.
+
+| Skill | Price | What it does |
+| --- | ---: | --- |
+| Agent Seatbelt Guardrails | Free | Your agent stops asking permission for the safe calls, and can never quietly make the dangerous ones. |
+| Seatbelt Policy Authoring | $19 | A policy that fits your project, written from your answers, with every risky rule proven in check mode before it can block anything real. |
+| Context Cost Control | $15 | The same agent, doing the same work, on a fraction of the context. |
+| Verified Research | $15 | Every figure you act on has been traced to the source that actually said it. |
+| Agent Daily Briefing | $12 | One message each morning that earns its place, or a deliberate silence. |
+| Marketplace Replies | $12 | Every inquiry gets a fast, honest reply, and you still send each one yourself. |
+| Load Safety Photo Check | $12 | Eight checks on a load photo, each closed honestly: pass, check this, or could not tell. |
+
+## Start in 60 seconds
+
+Install the free skill:
+
+    npx skills add littlestjames82-sys/ghostbus-hub-skills
+
+Then query the catalog like data, because it is data:
+
+    # how many skills are listed right now
+    jq '.skills | length' catalog.json
+
+    # everything in one category
+    jq '.skills[] | select(.category == "Agent Operations") | .title' catalog.json
+
+    # the bundle hash of one skill, to verify a delivery against
+    jq -r '.skills[] | select(.id == "context-cost-control") | .bundle_hash' catalog.json
+
+## How vetting works
+
+No skill lists on a promise. Before a listing goes live, its package
+is scanned two ways (the studio scanner and gitleaks), a human reads
+the findings, and the listing publishes the dated result of that
+scan next to the bundle hash. The registry behind the catalog is
+also hash-verified on every run of the Hub's own gate: 135 checks
+across 14 suites. If a package changes, its bundle hash changes, and
+the catalog here is what proves which version was vetted.
+
 ## What's in this repo
 
 | Path | What it is |
@@ -112,6 +155,32 @@ the storefront as final v1.1: the Hub keeps a 20% commission and the
 seller receives 80%, and every submission is scanned and reviewed
 before it can list. Public submissions open at launch; questions go
 to littlestjames82@gmail.com.
+
+## FAQ
+
+**Why are the paid packages not in this repo?**
+A public repo would make their full text free. Their public record
+(ids, prices, file lists, bundle hashes, vetting records) lives in
+`catalog.json`, and the packages are delivered with purchase.
+
+**How do I know a delivered bundle is the vetted one?**
+Recompute its bundle hash with the recipe in the "Verify a bundle
+yourself" section of this README and compare it to `catalog.json`.
+A match means the bytes are exactly what was scanned and listed.
+
+**What does the license cover?**
+The version you bought, permanently, for your own use. It is
+personal and non-transferable. The full buyer terms are on the
+storefront.
+
+**What if a skill is not right for me?**
+Refunds are goodwill, handled personally by email, per the Hub
+terms. Write to littlestjames82@gmail.com.
+
+**Can I sell my own skills here?**
+Third-party submissions open at launch, on the published terms:
+20% commission, scanning and review before anything lists. See
+"Sell on the Hub" above.
 
 ## Related projects
 
