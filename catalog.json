@@ -3553,6 +3553,438 @@
         "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
         "package_published": false
       }
+    },
+    {
+      "id": "model-and-tool-swap-checks",
+      "title": "Model and Tool Swap Checks",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Agent Operations",
+      "blurb": "A model or tool change stops shipping silent surprises: one fixed set of standard tasks runs on the old setup and the new one before anything goes live, every difference is named in plain words, and the rollback note is already written if the swap has to come back out.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/the-model-upgrade/WALKTHROUGH.md",
+        "examples/the-search-tool-change/WALKTHROUGH.md",
+        "reference/reading-the-differences.md",
+        "reference/rollback-note-and-restore.md",
+        "reference/the-standard-task-set.md",
+        "reference/the-swap-record.md",
+        "templates/rollback-note.template.md",
+        "templates/swap-check.template.md"
+      ],
+      "bundle_bytes": 42595,
+      "bundle_hash": "68814a48c0cc414029cff0792dda5c2c9bb60e8ed20536ceeae4196d6b9bc89d",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "standing-instructions-review",
+      "title": "Standing Instructions Review",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Agent Operations",
+      "blurb": "Standing instructions stop quietly going stale: on a schedule you set, every rule is checked against the record of what actually happened and marked holding, stale, in conflict, or without evidence, with any change drafted for your approval and nothing edited silently.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/the-conflicting-reply-rules/WALKTHROUGH.md",
+        "examples/the-stale-hold-rule/WALKTHROUGH.md",
+        "reference/drafting-the-change.md",
+        "reference/finding-staleness-and-conflict.md",
+        "reference/reading-the-run-record.md",
+        "reference/review-record.md",
+        "templates/change-draft.template.md",
+        "templates/review-sheet.template.md"
+      ],
+      "bundle_bytes": 45558,
+      "bundle_hash": "caa3e32f92e9a8cd9b77ba82395f89216062bab5f9c935d1056550d3c6321201",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "data-retention-schedule",
+      "title": "Data Retention Schedule",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Agent Safety and Governance",
+      "blurb": "Records stop being kept forever by default: every record type gets a written keep period and review date, and the deletion pass actually runs on schedule, under its own approval, with every pass logged, so what is kept and when it last went can always be answered.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/first-schedule-cleanup/WALKTHROUGH.md",
+        "examples/quarterly-deletion-pass/WALKTHROUGH.md",
+        "reference/deletion-pass-procedure.md",
+        "reference/record-types-and-periods.md",
+        "reference/retention-schedule-record.md",
+        "reference/review-and-logging.md",
+        "templates/deletion-pass-log.template.md",
+        "templates/retention-schedule.template.md"
+      ],
+      "bundle_bytes": 34157,
+      "bundle_hash": "1a335c91f371ce817e8cbb4d181a0c6175fb9e132a349eba5e5e07a5010fe678",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "public-corrections-log",
+      "title": "Public Corrections Log",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Studio / Publishing",
+      "blurb": "A published mistake stops being a quiet edit nobody can trace: the original is fixed in place, then one plain-words log entry per correction is published and kept, saying what was wrong, what it says now, and where it was fixed.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/the-wrong-date/WALKTHROUGH.md",
+        "examples/the-wrong-price/WALKTHROUGH.md",
+        "reference/the-log-itself.md",
+        "reference/verifying-the-fix.md",
+        "reference/where-the-log-lives.md",
+        "reference/writing-the-correction.md",
+        "templates/correction-entry.template.md",
+        "templates/published-correction-note.template.md"
+      ],
+      "bundle_bytes": 38000,
+      "bundle_hash": "435d9ec37ec149528d39585c6894ee135d7979c4cef4efd663b989960519992e",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "archive-and-sunset-products",
+      "title": "Archive and Sunset Products",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Studio / Shipping",
+      "blurb": "Retiring a product or a version stops being a mess: the decision and stop date are recorded, the sunset notice is drafted and held for your approval, what keeps working and until when is stated plainly, the records are exported and checked before anything stops, and the stop date is honored exactly.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/the-clean-retirement/WALKTHROUGH.md",
+        "examples/the-version-sunset/WALKTHROUGH.md",
+        "reference/export-and-retention-checklist.md",
+        "reference/sunset-record.md",
+        "reference/the-stop-date-and-final-shutdown.md",
+        "reference/writing-the-sunset-notice.md",
+        "templates/sunset-notice.template.md",
+        "templates/sunset-record.template.md"
+      ],
+      "bundle_bytes": 43531,
+      "bundle_hash": "0306a635698e10b41961f1933e7feb1838d489f95db23161240da4cd304f0766",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "spreadsheet-to-report",
+      "title": "Spreadsheet to Report",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Data, Files, and Research",
+      "blurb": "A spreadsheet becomes a report a reader can act on: every figure in the prose is traced to the sheet's own cells, every total is recomputed from those cells instead of copied, and anything the sheet does not support is left out or named as missing.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/project-costs-summary/WALKTHROUGH.md",
+        "examples/quarterly-sales-summary/WALKTHROUGH.md",
+        "reference/checking-the-report.md",
+        "reference/reading-the-sheet.md",
+        "reference/tracing-and-recomputing.md",
+        "reference/writing-the-report.md",
+        "templates/figure-trace.template.md",
+        "templates/report-outline.template.md"
+      ],
+      "bundle_bytes": 34470,
+      "bundle_hash": "f82a3a3e5263278bc49a61d5124f5263a35dbab590db6d55ea60ba317dd2036e",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "tool-and-material-staging",
+      "title": "Tool and Material Staging",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Field Operations",
+      "blurb": "Tomorrow's tools and materials get staged tonight in job order, with every gap flagged and filled while the shops are still open, so the morning starts with driving to the first job instead of fetching.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/roof-and-bathroom-staging/WALKTHROUGH.md",
+        "examples/three-job-tuesday-staging/WALKTHROUGH.md",
+        "reference/bench-check-and-close-out.md",
+        "reference/building-the-staging-list.md",
+        "reference/flagging-and-filling-gaps.md",
+        "reference/loading-in-job-order.md",
+        "templates/gap-and-buy-list.template.md",
+        "templates/staging-sheet.template.md"
+      ],
+      "bundle_bytes": 35534,
+      "bundle_hash": "46db52eb08b8f58d7a48b7400a6b50d0faa4e549fb582f8d9256d1dec0f0649e",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "end-of-day-job-log",
+      "title": "End of Day Job Log",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Field Operations",
+      "blurb": "Every job gets closed out the same day in one log, with what was done, what is left, the photos filed against the job, and the customer's next step noted, so tomorrow starts from the log instead of from memory.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/deck-rebuild-day-two/WALKTHROUGH.md",
+        "examples/three-job-cleanup-day/WALKTHROUGH.md",
+        "reference/building-the-daily-log.md",
+        "reference/filing-the-days-photos.md",
+        "reference/next-steps-and-tomorrow-start.md",
+        "reference/what-was-done-and-what-is-left.md",
+        "templates/daily-job-log.template.md",
+        "templates/job-closeout-entry.template.md"
+      ],
+      "bundle_bytes": 32994,
+      "bundle_hash": "c8fdb2f3db97a4386a50c013f0658bb52f4f9bc086482bf79c0425c473d8da1f",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "gift-card-and-credit-tracking",
+      "title": "Gift Card and Credit Tracking",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Money",
+      "blurb": "Every gift card, rain check, and store credit sits in one record, issued to whom, with its balance worked out redemption by redemption, so a credit is honored from the record and never argued from memory.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/gift-card-full-redemption/WALKTHROUGH.md",
+        "examples/store-credit-and-rain-check/WALKTHROUGH.md",
+        "reference/expiry-and-disputes.md",
+        "reference/issuing-a-credit.md",
+        "reference/redeeming-and-balances.md",
+        "reference/the-credit-record.md",
+        "templates/credit-record.template.md",
+        "templates/redemption-log.template.md"
+      ],
+      "bundle_bytes": 29759,
+      "bundle_hash": "9a2b0eec87f0758781a4dc3ded4d1b420af81f687bb5a2303662fcc5ab04d80f",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "review-response-drafts",
+      "title": "Review Response Drafts",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Marketing",
+      "blurb": "Public reviews get answered from the record instead of in a hurry: each review read in full, every point checked against the job's own facts, the reply drafted without inventing anything, and every draft held for your approval before it is posted.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/hard-fence-repair-review/WALKTHROUGH.md",
+        "examples/positive-yard-cleanup-review/WALKTHROUGH.md",
+        "reference/checking-against-the-job-record.md",
+        "reference/drafting-from-the-record.md",
+        "reference/hard-reviews-and-approval.md",
+        "reference/reading-the-review-in-full.md",
+        "templates/review-check-log.template.md",
+        "templates/review-response-draft.template.md"
+      ],
+      "bundle_bytes": 32414,
+      "bundle_hash": "e7b9b270f8a4867361f6f53dcd1b1efb60045e7c0275e585503df37db8147fd5",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "thumbnail-and-title-tests",
+      "title": "Thumbnail and Title Tests",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Creator and Audience",
+      "blurb": "Title and thumbnail picks stop being last-minute guesses: variants are written down before publishing, the pick is reviewed after a set window against the video's own numbers, and the outcome is logged so the next choice starts from what the record shows.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/three-dinners-from-one-chicken/WALKTHROUGH.md",
+        "examples/workbench-from-reclaimed-timber/WALKTHROUGH.md",
+        "reference/reading-the-review-window.md",
+        "reference/the-test-log.md",
+        "reference/what-the-record-can-and-cannot-show.md",
+        "reference/writing-variants-before-publishing.md",
+        "templates/review-log.template.md",
+        "templates/variant-sheet.template.md"
+      ],
+      "bundle_bytes": 39803,
+      "bundle_hash": "7cb3a7c0a94b00fa1114b8ca651c4f8cd41c2f394daf01193602949b94701494",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "podcast-guest-pipeline",
+      "title": "Podcast Guest Pipeline",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Creator and Audience",
+      "blurb": "Guests run as a pipeline instead of a scramble: prospects drawn from your own network and past episodes, tracked by stage, outreach drafted and held for your approval, a prep sheet built from the guest's public work, and follow-up and clip delivery logged until they are done.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/indie-maker-first-booking/WALKTHROUGH.md",
+        "examples/returning-author-second-visit/WALKTHROUGH.md",
+        "reference/outreach-drafts-and-approval.md",
+        "reference/prep-sheet-from-public-work.md",
+        "reference/prospect-sourcing-and-tracking.md",
+        "reference/recording-follow-up-and-clips.md",
+        "templates/guest-pipeline-record.template.md",
+        "templates/guest-prep-sheet.template.md"
+      ],
+      "bundle_bytes": 32736,
+      "bundle_hash": "0058a5e681ffdb3da739bc0c1a635569936e8fe23ca166e8dcb7f34379d283cf",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
     }
   ]
 }
