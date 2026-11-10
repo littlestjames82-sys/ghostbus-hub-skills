@@ -2689,6 +2689,438 @@
         "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
         "package_published": false
       }
+    },
+    {
+      "id": "agent-config-versioning",
+      "title": "Agent Config Versioning",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Agent Operations",
+      "blurb": "When an agent's behavior changes, you can say exactly when it changed, why, and what the earlier wording was, and roll back to that earlier version whole when a change goes wrong.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/the-broken-briefing/WALKTHROUGH.md",
+        "examples/the-policy-tightening/WALKTHROUGH.md",
+        "reference/rollback-procedure.md",
+        "reference/version-record.md",
+        "reference/version-storage-and-naming.md",
+        "reference/writing-the-diff.md",
+        "templates/rollback-record.template.md",
+        "templates/version-entry.template.md"
+      ],
+      "bundle_bytes": 42388,
+      "bundle_hash": "26ca48fb602c10d01cdf716e5a16b6dd7fd67c40f3ad2e74da81d6dbdcb180b0",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "scheduled-report-builder",
+      "title": "Scheduled Report Builder",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Agent Operations",
+      "blurb": "Your recurring report comes out in the same shape every time, every figure traced to the record behind it, and a missing record named as a gap instead of quietly filled.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/the-monthly-cost-roundup/WALKTHROUGH.md",
+        "examples/the-weekly-operations-summary/WALKTHROUGH.md",
+        "reference/fixed-shape-and-sections.md",
+        "reference/gaps-and-missing-records.md",
+        "reference/review-and-approval.md",
+        "reference/tracing-figures-to-records.md",
+        "templates/report-spec.template.md",
+        "templates/scheduled-report.template.md"
+      ],
+      "bundle_bytes": 37317,
+      "bundle_hash": "1e585d8790ad9b46e8774e2c7a5af647d547add53c45227f4d926ef790d70583",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "secrets-in-transit-check",
+      "title": "Secrets in Transit Check",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Agent Safety and Governance",
+      "blurb": "You can see every leg a secret travels between tools, agents, and people, each leg recorded with a plain risk call and a safer route, working from labels and locations only and never handling a real value.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/the-debug-handoff/WALKTHROUGH.md",
+        "examples/the-weekend-handover/WALKTHROUGH.md",
+        "reference/reading-transit-records.md",
+        "reference/risk-calls-on-a-path.md",
+        "reference/safer-routes.md",
+        "reference/where-secrets-get-copied.md",
+        "templates/safer-route-plan.template.md",
+        "templates/transit-path-log.template.md"
+      ],
+      "bundle_bytes": 39756,
+      "bundle_hash": "97076d088b60934321a5832634bcc90900c176824bb06be1fe46118950709ce8",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "incident-comms-drafts",
+      "title": "Incident Comms Drafts",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Studio / Publishing",
+      "blurb": "While an incident is live, each outward update is drafted from the incident record in plain words, what happened, what is affected, and when the next update comes, and every draft is held for your approval before it goes out.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/checkout-failure-live-updates.md",
+        "examples/sign-in-slowdown-live-updates.md",
+        "reference/corrections-and-closing.md",
+        "reference/plain-words-and-tone.md",
+        "reference/the-incident-record.md",
+        "reference/update-cadence-and-channels.md",
+        "templates/incident-record.template.md",
+        "templates/message-draft-set.template.md"
+      ],
+      "bundle_bytes": 39214,
+      "bundle_hash": "ea5430dec6b292ea5e5ae9c11e811868373191dffb291ae9bae307041988c33c",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "beta-feedback-loop",
+      "title": "Beta Feedback Loop",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Studio / Shipping",
+      "blurb": "Every beta report lands in one triaged record tied to the build it came from, duplicates merged and severity called from its effect, so every fix can be traced to the release that carried it and closed only when a reporter confirms it landed.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/the-duplicate-wave/WALKTHROUGH.md",
+        "examples/the-export-crash/WALKTHROUGH.md",
+        "reference/logging-and-versioning.md",
+        "reference/merging-duplicates.md",
+        "reference/severity-by-effect.md",
+        "reference/tracing-fixes-to-releases.md",
+        "templates/feedback-record.template.md",
+        "templates/release-feedback-summary.template.md"
+      ],
+      "bundle_bytes": 40730,
+      "bundle_hash": "784a948cb8720e4d5d8084ee7000db7a9e7771a57cea964198eb441c680fe128",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "csv-to-database-import",
+      "title": "CSV to Database Import",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Data, Files, and Research",
+      "blurb": "A CSV becomes database rows under a column mapping you approved before anything loaded, bad rows set aside in a named rejects file instead of dropped, and a row-count reconciliation that proves the import complete.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/member-list-import/WALKTHROUGH.md",
+        "examples/supplier-parts-import/WALKTHROUGH.md",
+        "reference/loading-safely.md",
+        "reference/rejects-and-reconciliation.md",
+        "reference/validation-rules.md",
+        "reference/writing-the-mapping.md",
+        "templates/column-mapping.template.md",
+        "templates/import-record.template.md"
+      ],
+      "bundle_bytes": 34269,
+      "bundle_hash": "50e1891d876d4323bce59f96a4e9ab30356eab42885727cd3518429e025c730e",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "pre-job-site-checklist",
+      "title": "Pre-Job Site Checklist",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Field Operations",
+      "blurb": "Tomorrow's job gets checked today: access confirmed, materials on hand counted against the job record, the customer confirmation drafted, weather glanced at, and anything short raised while there is still time to fix it.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/fence-and-gate-day-before/WALKTHROUGH.md",
+        "examples/roof-valley-repair-day-before/WALKTHROUGH.md",
+        "reference/access-and-entry.md",
+        "reference/customer-confirmation.md",
+        "reference/materials-count-against-the-record.md",
+        "reference/weather-and-day-fit.md",
+        "templates/confirmation-message.template.md",
+        "templates/site-checklist.template.md"
+      ],
+      "bundle_bytes": 34927,
+      "bundle_hash": "c745e67aacfe666b1998f6fda222a11a45b54b85f17e6eb146529853f6c3fe70",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "service-area-pricing-zones",
+      "title": "Service Area Pricing Zones",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Local Services / Money",
+      "blurb": "Distance stops being priced from feel: your service area becomes named zones with a written trip line for each, stated the same way in every quote, and out-of-zone jobs handled as logged exceptions instead of quiet discounts.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/cleaning-operator-named-zones/WALKTHROUGH.md",
+        "examples/hauling-operator-three-zones/WALKTHROUGH.md",
+        "reference/dividing-the-area-into-zones.md",
+        "reference/out-of-zone-exceptions.md",
+        "reference/setting-the-trip-line-per-zone.md",
+        "reference/stating-zones-in-quotes.md",
+        "templates/quote-and-exception-log.template.md",
+        "templates/zone-table.template.md"
+      ],
+      "bundle_bytes": 34739,
+      "bundle_hash": "fb1d3cc60a2c0044e6af0d8bb6c19292538d449e74565609266a2b0045d76870",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "complaint-handling-ladder",
+      "title": "Complaint Handling Ladder",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Local Services / Reputation",
+      "blurb": "An unhappy customer gets a ladder, not an argument: each rung from first contact to resolution has its record, its draft reply, and its limit, and no draft ever promises more than the job's written warranty.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/free-redo-asked-beyond-warranty/WALKTHROUGH.md",
+        "examples/leak-returned-inside-warranty/WALKTHROUGH.md",
+        "reference/closing-and-escalation.md",
+        "reference/reading-the-job-record.md",
+        "reference/reply-tone-and-limits.md",
+        "reference/the-written-warranty.md",
+        "templates/complaint-record.template.md",
+        "templates/reply-draft.template.md"
+      ],
+      "bundle_bytes": 34432,
+      "bundle_hash": "85594ab9676fbe258888651fd7beff67c6fa9808d993d398180349dd86389eaa",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "before-after-gallery-keeping",
+      "title": "Before and After Gallery Keeping",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Marketing",
+      "blurb": "Finished jobs become a gallery you can actually show: before and after pairs pulled from each job's own photo record, captions that state only what the record supports, and the customer's permission noted on the record before any pair is used.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/deck-cleaning-pair-cleared-for-use/WALKTHROUGH.md",
+        "examples/roof-valley-repair-pair-held-back/WALKTHROUGH.md",
+        "reference/keeping-and-using-the-gallery.md",
+        "reference/pairing-photos-from-the-record.md",
+        "reference/permission-on-the-record.md",
+        "reference/writing-captions-from-the-record.md",
+        "templates/gallery-entry.template.md",
+        "templates/permission-ask.template.md"
+      ],
+      "bundle_bytes": 28114,
+      "bundle_hash": "58a0f796817938bb4bbe6059430d2111bf12cdaca8fa6bee682bab95b96cd337",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "series-and-sequels-planner",
+      "title": "Series and Sequels Planner",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Creator and Audience",
+      "blurb": "A multi-part series that agrees with itself: the arc and part list drawn from your real work, continuity notes kept for every part (what was said, what was promised), and each new part checked against them before you film.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/raised-bed-garden-series/WALKTHROUGH.md",
+        "examples/workbench-build-series/WALKTHROUGH.md",
+        "reference/arc-from-real-work.md",
+        "reference/checking-a-new-part.md",
+        "reference/continuity-notes.md",
+        "reference/sequels-and-returns.md",
+        "templates/continuity-ledger.template.md",
+        "templates/series-plan.template.md"
+      ],
+      "bundle_bytes": 31454,
+      "bundle_hash": "fc399db0d72515c89fdf9e2e5342a8662569673b3988857f3fc0e7313a90fafb",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "sponsorship-outreach-drafts",
+      "title": "Sponsorship Outreach Drafts",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Creator and Audience",
+      "blurb": "Sponsor outreach built on numbers you can stand behind: a one-page media sheet drawn from your own records, a pitch draft per prospect, and a sent and answered log so nobody gets pitched twice.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/cooking-channel-return-round/WALKTHROUGH.md",
+        "examples/podcast-first-sponsor-round/WALKTHROUGH.md",
+        "reference/building-the-prospect-list.md",
+        "reference/drafting-the-pitch.md",
+        "reference/media-sheet-from-records.md",
+        "reference/the-sent-and-answered-log.md",
+        "templates/media-sheet.template.md",
+        "templates/pitch-draft.template.md"
+      ],
+      "bundle_bytes": 29586,
+      "bundle_hash": "134671316d45a26c1123635aa9dc6871ec6dda4399dc76dbd52a457043c8b8f7",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
     }
   ]
 }
