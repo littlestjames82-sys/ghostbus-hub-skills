@@ -5713,6 +5713,438 @@
         "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
         "package_published": false
       }
+    },
+    {
+      "id": "multi-step-job-planner",
+      "title": "Multi-Step Job Planner",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Agent Operations",
+      "blurb": "A large job stops failing one unnamed step at a time: the whole job is broken into ordered steps, each carrying what it needs before it can start, who owns it, and a written test for done, kept as one living plan the work is checked against as it runs.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/help-article-portal-move-in-nine-steps/WALKTHROUGH.md",
+        "examples/twelve-lesson-training-pack-built-to-a-plan/WALKTHROUGH.md",
+        "reference/keeping-the-plan-current.md",
+        "reference/ordering-steps-and-dependencies.md",
+        "reference/plan-terms-and-parts.md",
+        "reference/writing-done-criteria-that-hold.md",
+        "templates/job-plan.template.md",
+        "templates/step-entry.template.md"
+      ],
+      "bundle_bytes": 51172,
+      "bundle_hash": "d4880e28e207ddda24f6b41cee4686329848390022c9750ce9403d8fc2224ff4",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "failure-mode-drills",
+      "title": "Failure Mode Drills",
+      "version": "1.0.0",
+      "price_usd": 19,
+      "pricing": "one-time",
+      "category": "Agent Safety and Governance",
+      "blurb": "Know what your system does in the first minute after a part fails, before a real failure shows you in front of a client: each failure is scripted in advance, run on copies or in a sandbox, and the observed behavior is recorded against the behavior written down before the run.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/bad-input-batch-at-intake/WALKTHROUGH.md",
+        "examples/provider-outage-mid-run/WALKTHROUGH.md",
+        "reference/failure-modes-and-expected-behavior.md",
+        "reference/reading-drill-results.md",
+        "reference/running-on-copies-and-in-a-sandbox.md",
+        "reference/scripting-a-drill.md",
+        "templates/drill-record.template.md",
+        "templates/drill-script.template.md"
+      ],
+      "bundle_bytes": 52512,
+      "bundle_hash": "c6f58d60458e3025a144d6bdf341e8befd7affb8019863fffb7a440082f1a8ef",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "access-review-cadence",
+      "title": "Access Review Cadence",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Agent Safety and Governance",
+      "blurb": "Access stops drifting one quiet grant at a time: every grant a person, an agent, or a connected tool holds sits in one standing register and is rechecked on its due date, then confirmed, narrowed, or revoked on the record, on a fixed rhythm instead of after something goes wrong.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/monthly-cycle-for-a-small-support-team/WALKTHROUGH.md",
+        "examples/quarterly-cycle-that-ended-stale-grants/WALKTHROUGH.md",
+        "reference/cadence-terms-and-the-register.md",
+        "reference/choosing-the-cadence.md",
+        "reference/confirm-narrow-or-revoke.md",
+        "reference/stale-grants-and-drift-signs.md",
+        "templates/grant-review-entry.template.md",
+        "templates/review-register.template.md"
+      ],
+      "bundle_bytes": 43016,
+      "bundle_hash": "521849d7e1d5f7e220ff8e822a372f8215dfdd98624f737cbbcc392dfb070f0f",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "incident-severity-grading",
+      "title": "Incident Severity Grading",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Studio / Publishing",
+      "blurb": "Every incoming incident is graded against one written severity scale, with the grade and its reasons on record and the response target following from the grade, so a fault that stops buyers paying stops sharing a queue with a spelling slip.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/morning-when-the-store-went-down-and-a-typo-waited/WALKTHROUGH.md",
+        "examples/slow-editor-and-the-loud-print-fault/WALKTHROUGH.md",
+        "reference/grading-by-impact-and-reach.md",
+        "reference/regrading-and-borderline-cases.md",
+        "reference/response-targets-per-grade.md",
+        "reference/the-severity-scale.md",
+        "templates/grading-entry.template.md",
+        "templates/severity-scale.template.md"
+      ],
+      "bundle_bytes": 37771,
+      "bundle_hash": "7272c2ecc26642425de8bad48ebc4ec0c59a2be50b7c3dd82395748cc53ff1a8",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "file-retention-exceptions",
+      "title": "File Retention Exceptions",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Data, Files, and Research",
+      "blurb": "Records held past their retention period stop being a habit nobody can explain: each approved hold is written down as one exception naming the records it covers, the reason, the owner, and the date it ends, and is reviewed on the day it lapses.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/project-drafts-held-for-a-client-query/WALKTHROUGH.md",
+        "examples/reviewer-notes-renewed-then-closed/WALKTHROUGH.md",
+        "reference/approving-and-refusing-exceptions.md",
+        "reference/exception-terms-and-states.md",
+        "reference/lapse-review-and-closure.md",
+        "reference/the-exception-register.md",
+        "templates/exception-entry.template.md",
+        "templates/lapse-review-log.template.md"
+      ],
+      "bundle_bytes": 45198,
+      "bundle_hash": "42dd2e95a69ebda6c6285241ecdf692a362cba66fbb9097ce7f97f1d17aa460b",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "spreadsheet-formula-audit",
+      "title": "Spreadsheet Formula Audit",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Data, Files, and Research",
+      "blurb": "A workbook's numbers earn trust from its formulas, not its displayed values: every formula in scope is read range by range for errors, typed values hidden inside calculation chains, and references pointing at nothing, with each fault listed per sheet by cell and class.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/monthly-budget-with-a-broken-total/WALKTHROUGH.md",
+        "examples/stock-count-with-hardcoded-prices/WALKTHROUGH.md",
+        "reference/error-and-reference-faults.md",
+        "reference/formula-terms-and-scope.md",
+        "reference/hardcoded-values-and-chains.md",
+        "reference/reading-findings-by-severity.md",
+        "templates/audit-record.template.md",
+        "templates/sheet-findings-entry.template.md"
+      ],
+      "bundle_bytes": 57185,
+      "bundle_hash": "f1a988efc4747571e9ee87a344e589fdb202778dd08f143dcc7faeec5072d818",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "quote-terms-library",
+      "title": "Quote Terms Library",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Sales",
+      "blurb": "Every quote you send carries the same current terms: the payment, changes, warranty, and validity blocks live in one checked library, each with its own version, and every new quote is checked against that library before it goes out, so stale wording stops travelling from quote to quote.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/kitchen-remodel-terms-caught-before-sending/WALKTHROUGH.md",
+        "examples/roof-repair-library-first-build/WALKTHROUGH.md",
+        "reference/building-the-library-from-past-quotes.md",
+        "reference/checking-a-quote-before-it-goes-out.md",
+        "reference/keeping-terms-honest-and-in-scope.md",
+        "reference/versioning-blocks-and-retiring-stale-ones.md",
+        "templates/library-index-and-check-log.template.md",
+        "templates/terms-block.template.md"
+      ],
+      "bundle_bytes": 34967,
+      "bundle_hash": "1142c0f077c4750f916cbd1a0737af58a7319e93c77669d77aa9dade29db2488",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "tool-checkout-log",
+      "title": "Tool Checkout Log",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Field Operations",
+      "blurb": "Who had which tool, on which job, and what came back damaged is answerable from one log: your own gear is checked out to a named person for a named job and back in against the same entry, with loss and damage written on that entry.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/fence-line-clearing-loppers-did-not-come-back/WALKTHROUGH.md",
+        "examples/porch-repair-saw-back-with-a-cracked-guard/WALKTHROUGH.md",
+        "reference/checking-back-in-on-the-same-entry.md",
+        "reference/checking-out-against-a-person-and-a-job.md",
+        "reference/reading-the-log-for-what-is-still-out.md",
+        "reference/recording-loss-and-damage.md",
+        "templates/checkout-slip.template.md",
+        "templates/tool-checkout-log.template.md"
+      ],
+      "bundle_bytes": 31713,
+      "bundle_hash": "f20332d8735c938947c6848c77e5a4de93dfcd2c2173b8f67600c1969566af36",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "invoice-dispute-handling",
+      "title": "Invoice Dispute Handling",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Local Services / Money",
+      "blurb": "A contested invoice gets settled from the record instead of argued from memory: each disputed line is checked against the accepted quote and the completion record, the reply is drafted in plain words from what the records show, and the settlement is recorded on the job.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/gutter-job-elbow-line-held-pipe-line-removed/WALKTHROUGH.md",
+        "examples/yard-clearance-third-load-and-an-hour/WALKTHROUGH.md",
+        "reference/checking-each-line-against-the-records.md",
+        "reference/drafting-the-answer-in-plain-words.md",
+        "reference/reading-the-dispute-and-opening-the-record.md",
+        "reference/settling-and-recording-the-outcome.md",
+        "templates/dispute-check-sheet.template.md",
+        "templates/settlement-record.template.md"
+      ],
+      "bundle_bytes": 37812,
+      "bundle_hash": "6461c851645f7c60c1e2f0b9e0bf74cf90270f4db5472197a42b27a19ff3e852",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "lead-source-tracking",
+      "title": "Lead Source Tracking",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Sales",
+      "blurb": "You stop feeding the sources that never send work: every lead is recorded with where it came from, outcomes are joined back to sources on a set review cadence, and effort goes to the sources your own record supports.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/marketplace-heavy-month-for-a-gutter-operator/WALKTHROUGH.md",
+        "examples/spring-review-for-a-fence-operator/WALKTHROUGH.md",
+        "reference/acting-on-the-review-without-overreading-it.md",
+        "reference/recording-outcomes-and-joining-them-back.md",
+        "reference/recording-the-source-at-intake.md",
+        "reference/running-the-source-review.md",
+        "templates/lead-source-log.template.md",
+        "templates/source-review.template.md"
+      ],
+      "bundle_bytes": 40012,
+      "bundle_hash": "32c12f10013836bb550c8d948beb6058d5250cc529367e67fc7db009108526a1",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "release-notes-drafts",
+      "title": "Release Notes Drafts",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Studio / Publishing",
+      "blurb": "Each version ships with notes a user can scan in seconds: the change record is rewritten in plain words about what changed for the user, grouped as new, improved, and fixed, with anything the record does not support left out, and every draft held for your approval.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/a-fix-only-release-with-nothing-new/WALKTHROUGH.md",
+        "examples/a-mixed-release-with-new-improved-and-fixed/WALKTHROUGH.md",
+        "reference/grouping-and-ordering-the-notes.md",
+        "reference/holding-the-draft-for-approval.md",
+        "reference/reading-the-change-record.md",
+        "reference/turning-changes-into-user-words.md",
+        "templates/release-notes-check-log.template.md",
+        "templates/release-notes-draft.template.md"
+      ],
+      "bundle_bytes": 33234,
+      "bundle_hash": "6837a0fe86b5ad75e4cb62758390b579ce20421edd29fadbe12ce46c8effc3eb",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "audience-question-bank",
+      "title": "Audience Question Bank",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Creator and Audience",
+      "blurb": "The questions your audience actually asks stop getting lost: each one is kept in the asker's own words with where and when it was asked, grouped and counted from the bank itself, then turned into FAQ drafts first, Q and A content second, and product fixes where the same question keeps exposing the same gap.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/bakery-counter-questions-that-became-an-faq/WALKTHROUGH.md",
+        "examples/bike-shop-questions-that-fixed-a-gap/WALKTHROUGH.md",
+        "reference/capturing-questions-in-their-own-words.md",
+        "reference/grouping-and-counting-questions.md",
+        "reference/turning-questions-into-content-and-fixes.md",
+        "reference/turning-the-bank-into-an-faq-page.md",
+        "templates/faq-and-content-draft.template.md",
+        "templates/question-bank.template.md"
+      ],
+      "bundle_bytes": 39105,
+      "bundle_hash": "60adaca8a91e98107dca0e990307634bbc5d520054a58a9f8f06031e5bd7c788",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
     }
   ]
 }
