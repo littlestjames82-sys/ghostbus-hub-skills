@@ -3121,6 +3121,438 @@
         "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
         "package_published": false
       }
+    },
+    {
+      "id": "agent-dry-run-rehearsal",
+      "title": "Agent Dry Run Rehearsal",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Agent Operations",
+      "blurb": "A new workflow earns its first live run: it rehearses against copies of your real records and hands you a step-by-step log with every outward or state-changing step flagged, so you approve exactly what it would do before it touches anything real.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/the-invoice-chase-rehearsal/WALKTHROUGH.md",
+        "examples/the-job-file-tidy-rehearsal/WALKTHROUGH.md",
+        "reference/copying-records-safely.md",
+        "reference/flagging-steps.md",
+        "reference/reading-the-rehearsal-log.md",
+        "reference/when-a-rehearsal-fails.md",
+        "templates/rehearsal-brief.template.md",
+        "templates/rehearsal-log.template.md"
+      ],
+      "bundle_bytes": 37395,
+      "bundle_hash": "dc7f40f1c6c70386828f1a02f93cb41e3367de27a862dad22cda8d138c90d446",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "task-time-estimates",
+      "title": "Task Time Estimates",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Agent Operations",
+      "blurb": "Estimates stop being guesses: every task's estimate is written before it starts and its actual time beside it when it ends, so the next estimate for the same work comes from recorded actuals and chronic misses get named.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/the-inbox-that-always-ran-long/WALKTHROUGH.md",
+        "examples/the-release-notes-that-came-in-early/WALKTHROUGH.md",
+        "reference/estimate-records.md",
+        "reference/handling-splits-and-interruptions.md",
+        "reference/making-the-next-estimate.md",
+        "reference/naming-chronic-misses.md",
+        "templates/estimate-review.template.md",
+        "templates/time-record.template.md"
+      ],
+      "bundle_bytes": 35498,
+      "bundle_hash": "2744db7b1013b74c9c73e9117a0529ccfa2ce0c33de5d8cdcba18bf506d6d2c6",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "output-format-contracts",
+      "title": "Output Format Contracts",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Agent Safety and Governance",
+      "blurb": "Agent handoffs stop breaking two steps later: every handoff format is written down as a contract (fields, order, what must never appear in it), and every output is checked against that contract before anything downstream uses it.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/the-invoice-handoff/WALKTHROUGH.md",
+        "examples/the-job-status-handoff/WALKTHROUGH.md",
+        "reference/changing-a-contract.md",
+        "reference/checking-an-output.md",
+        "reference/forbidden-content.md",
+        "reference/writing-a-contract.md",
+        "templates/conformance-report.template.md",
+        "templates/format-contract.template.md"
+      ],
+      "bundle_bytes": 34254,
+      "bundle_hash": "e5b345ec340ee3a6182225518cb6449a03f95743df5bc8abaec6c4bbeb31b294",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "vendor-and-tool-renewals",
+      "title": "Vendor and Tool Renewals",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Studio / Shipping",
+      "blurb": "No renewal lands as a surprise charge: every subscription and tool sits in one record with its renewal date, its price, and last time's price beside it, and the keep-or-drop call is recorded before the money goes.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/the-look-ahead-review.md",
+        "examples/the-price-rise-call.md",
+        "reference/review-rhythm-and-alerts.md",
+        "reference/sources-prices-and-terms.md",
+        "reference/the-keep-or-drop-call.md",
+        "reference/the-renewal-record.md",
+        "templates/renewal-record.template.md",
+        "templates/renewal-review.template.md"
+      ],
+      "bundle_bytes": 41882,
+      "bundle_hash": "de5189866fd46c7b334b697b2513d17dac8261dc5d6020ec8fc04edd779dd3fb",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "doc-drift-checks",
+      "title": "Doc Drift Checks",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Studio / Publishing",
+      "blurb": "Your published docs stop quietly going stale: on a schedule, every claim in a guide or README is traced to the shipped build, drift is logged with the exact line it lives on, and each drifted line is fixed or cut.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/guide-drift-after-release/WALKTHROUGH.md",
+        "examples/readme-drift-after-rename/WALKTHROUGH.md",
+        "reference/claim-inventory-and-tracing.md",
+        "reference/drift-kinds-and-severity.md",
+        "reference/fix-or-cut-decisions.md",
+        "reference/scheduling-and-baselines.md",
+        "templates/claim-inventory.template.md",
+        "templates/drift-log.template.md"
+      ],
+      "bundle_bytes": 45323,
+      "bundle_hash": "a35b95fb113fc6c70e60bb6713f9e3ff7a9d93363921ce633449874311d02644",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "pdf-form-filling",
+      "title": "PDF Form Filling",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Data, Files, and Research",
+      "blurb": "Forms stop carrying figures from memory: every field is mapped to a named record before filling, values come from that record only, a check pass reads the filled copy back against the records, and the submitted copy is kept with its date.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/event-permit-application.md",
+        "examples/vendor-registration-form.md",
+        "reference/field-mapping.md",
+        "reference/keeping-the-submitted-copy.md",
+        "reference/reading-the-records.md",
+        "reference/the-check-pass.md",
+        "templates/field-mapping.template.md",
+        "templates/submission-record.template.md"
+      ],
+      "bundle_bytes": 41157,
+      "bundle_hash": "3be693493d7104596227dda51740346c2f4974a64028985a1d0d21f3cbb82d7b",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "delivery-and-dropoff-runs",
+      "title": "Delivery and Dropoff Runs",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Field Operations",
+      "blurb": "A missed delivery stops being an argument: the day is planned from the job records with load order and stop order written down, a customer message drafted per stop, and a proof-of-drop note at every stop, so any miss traces to the plan or the road.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/five-stop-round-missed-delivery/WALKTHROUGH.md",
+        "examples/six-stop-firewood-round/WALKTHROUGH.md",
+        "reference/customer-messages-per-stop.md",
+        "reference/load-order-and-stop-order.md",
+        "reference/proof-of-drop-and-tracing.md",
+        "reference/reading-the-job-records.md",
+        "templates/proof-of-drop-log.template.md",
+        "templates/run-plan.template.md"
+      ],
+      "bundle_bytes": 30179,
+      "bundle_hash": "b88031f6da7887deac985f50fdf8eee115603c545aca8f2db7ba095163dc680c",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "rental-and-borrowed-gear-log",
+      "title": "Rental and Borrowed Gear Log",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Field Operations",
+      "blurb": "Returns and damage questions get a record instead of an argument: every rented or borrowed item logged with what it is, whose it is, the deposit and due-back date, and its condition noted out and back with photos from the job record.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/borrowed-scaffold-tower-house-job.md",
+        "examples/rented-mini-excavator-drainage-job.md",
+        "reference/check-out-and-condition-notes.md",
+        "reference/deposits-due-dates-and-fees.md",
+        "reference/gear-log-fields.md",
+        "reference/return-check-and-damage-questions.md",
+        "templates/check-out-return-entry.template.md",
+        "templates/gear-log.template.md"
+      ],
+      "bundle_bytes": 37229,
+      "bundle_hash": "6ae5651d82ca911788438c930dab15baf0c92c687dd748d64c128c7172250015",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "receipts-reconciliation",
+      "title": "Receipts Reconciliation",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Local Services / Money",
+      "blurb": "The week's money in is proven, not assumed: cash, Cash App, and card receipts matched line by line against the job records, every gap named against the job it belongs to, and nothing written off without your recorded decision.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/five-jobs-one-short-payment.md",
+        "examples/split-payments-fees-and-one-unknown.md",
+        "reference/gaps-named-never-written-off.md",
+        "reference/matching-line-by-line.md",
+        "reference/reading-payment-records.md",
+        "reference/the-job-record-baseline.md",
+        "templates/gap-note.template.md",
+        "templates/weekly-reconciliation-sheet.template.md"
+      ],
+      "bundle_bytes": 34517,
+      "bundle_hash": "90dd4028350548241c396c3206e7057c5aab04632daf6b34cf5a7e667ba85ae6",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "referral-partner-list",
+      "title": "Referral Partner List",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Marketing",
+      "blurb": "Business-to-business referrals stop depending on memory: one working list of who sends what kind of work, what has been sent each way, the thank-you kept current, and one nudge drafted when a good partner has gone quiet.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/cleaner-agent-circle-and-a-quiet-partner/WALKTHROUGH.md",
+        "examples/roofer-plumber-two-way-trade/WALKTHROUGH.md",
+        "reference/thank-yous-that-stay-current.md",
+        "reference/the-partner-list.md",
+        "reference/what-counts-as-a-referral.md",
+        "reference/when-a-partner-goes-quiet.md",
+        "templates/nudge-and-thank-you.template.md",
+        "templates/partner-entry.template.md"
+      ],
+      "bundle_bytes": 39755,
+      "bundle_hash": "e8150d6938e8caba4e645c05eeffa8209d3ed5b54892774a6ef22da3aa1e0b7a",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "live-session-prep",
+      "title": "Live Session Prep",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Creator and Audience",
+      "blurb": "A live session starts planned instead of improvised: the run order written from your real work, the setup checked before you go live, and the list of clips and follow-ups made before the session ends, not from memory after.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/sketching-tutorial-live/WALKTHROUGH.md",
+        "examples/workshop-demo-live/WALKTHROUGH.md",
+        "reference/planning-clips-and-follow-ups.md",
+        "reference/the-setup-check.md",
+        "reference/working-from-real-work.md",
+        "reference/writing-the-run-order.md",
+        "templates/session-plan.template.md",
+        "templates/setup-check.template.md"
+      ],
+      "bundle_bytes": 33874,
+      "bundle_hash": "e1ff5d1a1a5194c15457567d4d3415b0ae0efc13f14aad7e47324fdc2566b463",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "comment-to-content-ideas",
+      "title": "Comment to Content Ideas",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Creator and Audience",
+      "blurb": "Your next filming list comes from your audience's own words: real questions and requests from comments logged verbatim, grouped by theme, and every filming item naming the comments that asked for it.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/beginner-baking-follow-ups/WALKTHROUGH.md",
+        "examples/workshop-tool-questions/WALKTHROUGH.md",
+        "reference/building-the-filming-list.md",
+        "reference/grouping-by-theme.md",
+        "reference/keeping-the-idea-log-current.md",
+        "reference/logging-comments-verbatim.md",
+        "templates/comment-idea-log.template.md",
+        "templates/filming-list.template.md"
+      ],
+      "bundle_bytes": 34239,
+      "bundle_hash": "ffbf204e0cc07ecfa7beeadfa5679a10652bdaeeff311465c6053227f6597724",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
     }
   ]
 }
