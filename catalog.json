@@ -2257,6 +2257,438 @@
         "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
         "package_published": false
       }
+    },
+    {
+      "id": "agent-escalation-handling",
+      "title": "Agent Escalation Handling",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Agent Operations",
+      "blurb": "Work stops cleanly at the edge of the brief instead of guessing past it: the operator gets one escalation note carrying the evidence and one exact question, and the agent does only the safe work while it waits.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/the-invoice-over-the-line/WALKTHROUGH.md",
+        "examples/the-reply-that-needed-a-promise/WALKTHROUGH.md",
+        "reference/resuming-after-a-decision.md",
+        "reference/safe-work-while-waiting.md",
+        "reference/stop-conditions.md",
+        "reference/writing-the-escalation-note.md",
+        "templates/brief-with-stop-conditions.template.md",
+        "templates/escalation-note.template.md"
+      ],
+      "bundle_bytes": 39448,
+      "bundle_hash": "73cff75ad35ad77786f25600bd913c0087cc22303368cbdf0750ae1db1db3b7a",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "multi-agent-job-split",
+      "title": "Multi-Agent Job Split",
+      "version": "1.0.0",
+      "price_usd": 19,
+      "pricing": "one-time",
+      "category": "Agent Operations",
+      "blurb": "One big job stops coming back with doubled, missing, or conflicting pieces: it is split into work packages with hard boundaries before work starts, every agent writes to one shared record, and a merge check reconciles the parts before anything is delivered.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/the-help-center-rebuild/WALKTHROUGH.md",
+        "examples/the-supplier-price-audit/WALKTHROUGH.md",
+        "reference/drawing-boundaries.md",
+        "reference/the-merge-check.md",
+        "reference/the-shared-record.md",
+        "reference/work-package-briefs.md",
+        "templates/job-split-plan.template.md",
+        "templates/merge-check.template.md"
+      ],
+      "bundle_bytes": 37174,
+      "bundle_hash": "871a9051b45196eeceff2256bc41392bd3b67423d172dac7bf18b93d32243c3c",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "privacy-consent-records",
+      "title": "Privacy Consent Records",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Agent Safety and Governance",
+      "blurb": "You can say from a record who agreed to what: one consent ledger per person and per scope, checked before any details are used, with withdrawals recorded and honoured across every store the agent touches.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/the-new-client-intake.md",
+        "examples/the-withdrawal-that-spread.md",
+        "reference/capturing-consent.md",
+        "reference/checking-and-expiry.md",
+        "reference/ledger-fields.md",
+        "reference/withdrawal-and-propagation.md",
+        "templates/consent-ledger-entry.template.md",
+        "templates/withdrawal-record.template.md"
+      ],
+      "bundle_bytes": 34935,
+      "bundle_hash": "a8e2d6442119935cab4432b29b4408caae781929fdbb20db74944afcf6109e8d",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "uptime-and-status-checks",
+      "title": "Uptime and Status Checks",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Studio / Shipping",
+      "blurb": "You learn a service is down from a dated record, not from a user: scheduled checks run the steps a user would take, every miss follows a written retry, record, escalate ladder, and the service's state on any day can be read back.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/the-morning-after-a-deploy/WALKTHROUGH.md",
+        "examples/the-slow-afternoon-outage/WALKTHROUGH.md",
+        "reference/check-list-design.md",
+        "reference/failure-ladder.md",
+        "reference/reading-results-honestly.md",
+        "reference/status-record.md",
+        "templates/service-check-list.template.md",
+        "templates/status-record.template.md"
+      ],
+      "bundle_bytes": 35681,
+      "bundle_hash": "fda0bb2592a5abe1d929cddc51727747e6e5d4d4c4db027f7233c84eee5170db",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "user-guide-writing",
+      "title": "User Guide Writing",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Studio / Publishing",
+      "blurb": "Your guide describes the tool you actually shipped: every screen walked, every step written in the words the screens use and checked by doing it in the tool, and anything the tool does not do cut out.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/repairdesk-first-guide.md",
+        "examples/shelfcount-first-guide.md",
+        "reference/checking-every-step.md",
+        "reference/keeping-the-guide-current.md",
+        "reference/reading-the-tool-first.md",
+        "reference/task-order-and-sections.md",
+        "templates/guide-outline.template.md",
+        "templates/step-check-log.template.md"
+      ],
+      "bundle_bytes": 34411,
+      "bundle_hash": "47c53c4cafeb9af3604b6ea00f0f7405138542c25618b5590148156780b2ae2c",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "research-comparison-table",
+      "title": "Research Comparison Table",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Data, Files, and Research",
+      "blurb": "The choice stops resting on figures nobody can trace: options compared on the same rows and the same basis, every cell tied to a named source with its date, unknowns left blank and labelled, and the differences that decide it summarised under the table.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/backup-tools-for-a-small-studio.md",
+        "examples/invoicing-services-for-a-solo-operator.md",
+        "reference/choosing-rows-and-options.md",
+        "reference/handling-unknowns-and-conflicts.md",
+        "reference/sourcing-every-cell.md",
+        "reference/writing-the-deciding-differences.md",
+        "templates/comparison-brief.template.md",
+        "templates/comparison-table.template.md"
+      ],
+      "bundle_bytes": 41620,
+      "bundle_hash": "bb0bf11b20d89f6bc89f0db5c782c51adc9378905b64a6c90d674c213924fac6",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "job-profit-review",
+      "title": "Job Profit Review",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Local Services / Money",
+      "blurb": "You find out what a closed job actually made: estimate set against actual cost line by line, expenses and callbacks counted in full, and each lesson written into the next estimate as a changed line for your approval.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/gravel-driveway-regrade/WALKTHROUGH.md",
+        "examples/tree-removal-that-ran-long/WALKTHROUGH.md",
+        "reference/counting-the-full-cost.md",
+        "reference/estimate-against-actual.md",
+        "reference/finding-the-lesson.md",
+        "reference/turning-lessons-into-estimate-lines.md",
+        "templates/next-estimate-change-log.template.md",
+        "templates/profit-review-sheet.template.md"
+      ],
+      "bundle_bytes": 35125,
+      "bundle_hash": "e7b3cbdf0135941d09278bded3c4c7737df998b149b27ada70d30d0db28570ba",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "subcontractor-coordination",
+      "title": "Subcontractor Coordination",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Local Services / Field Operations",
+      "blurb": "A sub arrives with nothing left to memory: a scope note the sub agreed to, the schedule and site rules in writing, a payment record for the sub work, and the customer told in advance who is doing what.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/bathroom-tile-plumber-sub/WALKTHROUGH.md",
+        "examples/porch-rebuild-electrician-sub/WALKTHROUGH.md",
+        "reference/customer-line-on-who-does-what.md",
+        "reference/payment-record-for-sub-work.md",
+        "reference/schedule-and-site-rules-in-writing.md",
+        "reference/scope-note-the-sub-agrees-to.md",
+        "templates/coordination-record.template.md",
+        "templates/subcontractor-brief.template.md"
+      ],
+      "bundle_bytes": 35812,
+      "bundle_hash": "78c1542d0747761a9e06cb75bb67496fbe9b2510e5721ccc8b4530b45c9fea3b",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "equipment-maintenance-log",
+      "title": "Equipment Maintenance Log",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Field Operations",
+      "blurb": "Wear shows up on paper before it stops a job: one maintenance record for every tool, vehicle, and machine, with service intervals tracked, repairs logged at their real costs, and downtime noted.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/log-splitter-first-season-on-record.md",
+        "examples/mower-belt-failure-caught-by-the-log.md",
+        "reference/equipment-record-fields.md",
+        "reference/reading-the-record-for-failures.md",
+        "reference/repair-and-downtime-logging.md",
+        "reference/service-intervals-hours-or-date.md",
+        "templates/equipment-register.template.md",
+        "templates/maintenance-entry.template.md"
+      ],
+      "bundle_bytes": 32825,
+      "bundle_hash": "371af5b8baccf56c8bd7cfeee633ad4f4e74e1c02980f28c9a040b328cbe9b8b",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "google-profile-updates",
+      "title": "Google Profile Updates",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Marketing",
+      "blurb": "Your Google profile matches the real business again: hours and services checked against what you actually do on a set schedule, photos picked from finished jobs, and review replies drafted in your voice for your approval before anything goes live.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/holiday-hours-roofing-update/WALKTHROUGH.md",
+        "examples/review-replies-and-service-list-fix/WALKTHROUGH.md",
+        "reference/photo-picks-from-finished-jobs.md",
+        "reference/profile-facts-check.md",
+        "reference/review-replies-in-the-operators-voice.md",
+        "reference/update-schedule-and-log.md",
+        "templates/profile-update-plan.template.md",
+        "templates/review-reply-draft.template.md"
+      ],
+      "bundle_bytes": 29819,
+      "bundle_hash": "d6a05c16da20c1aded409a3a46ebddf0cc49041f2003ec25fc78ad48e72d4e2f",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "short-form-topic-bank",
+      "title": "Short-Form Topic Bank",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Creator and Audience",
+      "blurb": "A posting day starts from a stocked bank instead of a blank page: every topic drawn from your real work records, carrying its hook, the record it came from, and its status, with new ideas checked so no topic is filmed twice.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/repair-crew-question-bank.md",
+        "examples/studio-build-log-bank.md",
+        "reference/keeping-the-bank-current.md",
+        "reference/reading-work-records.md",
+        "reference/statuses-and-dedupe.md",
+        "reference/writing-the-hook.md",
+        "templates/topic-bank.template.md",
+        "templates/topic-entry.template.md"
+      ],
+      "bundle_bytes": 30956,
+      "bundle_hash": "22262b950e15f4b0db85ace3d06ec65e8d93b316fe256ebedd3944af86060fa4",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "new-customer-welcome-pack",
+      "title": "New Customer Welcome Pack",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Sales",
+      "blurb": "Every new customer gets the same answers before the first job: one welcome pack built from your real records, covering the services in plain words, the terms as set, how to reach you, and what to expect on the day, held for your approval before it sends.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/roof-valley-repair-first-job/WALKTHROUGH.md",
+        "examples/yard-cleanup-and-haul-first-job/WALKTHROUGH.md",
+        "reference/services-in-plain-words.md",
+        "reference/terms-contact-and-timing.md",
+        "reference/what-goes-in-the-pack.md",
+        "reference/what-to-expect-on-the-day.md",
+        "templates/pack-assembly-checklist.template.md",
+        "templates/welcome-pack.template.md"
+      ],
+      "bundle_bytes": 35127,
+      "bundle_hash": "c9c356cc33c49df5ec580eb14d49bb1fa1a5dc42de932499672f5e5f36d35129",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
     }
   ]
 }
