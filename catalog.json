@@ -1393,6 +1393,438 @@
         "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
         "package_published": false
       }
+    },
+    {
+      "id": "agent-health-check",
+      "title": "Agent Health Check",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Agent Operations",
+      "blurb": "Drift gets caught on a schedule instead of by surprise: one dated health record of what is sound, what is not, and which fix comes first.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/the-drifting-inbox-agent/WALKTHROUGH.md",
+        "examples/the-silent-watch-agent/WALKTHROUGH.md",
+        "reference/config-drift.md",
+        "reference/memory-and-tool-checks.md",
+        "reference/ranking-fixes-by-risk.md",
+        "reference/silent-watches.md",
+        "templates/health-check-brief.template.md",
+        "templates/health-record.template.md"
+      ],
+      "bundle_bytes": 40972,
+      "bundle_hash": "524fb2e737726ffb7755cbd88f6b8a6f6ccd854adcb089c9e5c62937f7a61c52",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "agent-cost-ledger",
+      "title": "Agent Cost Ledger",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Agent Operations",
+      "blurb": "Every charge traces back to the agent and the task that caused it, against budget lines set before the work started, with overruns flagged from the records and nothing estimated silently.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/the-month-end-close/WALKTHROUGH.md",
+        "examples/the-runaway-retry-loop/WALKTHROUGH.md",
+        "reference/budget-lines.md",
+        "reference/ledger-entries.md",
+        "reference/reading-provider-records.md",
+        "reference/reconciling-and-flagging.md",
+        "templates/budget-plan.template.md",
+        "templates/ledger-report.template.md"
+      ],
+      "bundle_bytes": 32243,
+      "bundle_hash": "17a856dfe5a95e7ed3be9fc853eb21feba5ec9728ffe992b9ff91b03399ddc6f",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "agent-red-team-drills",
+      "title": "Agent Red Team Drills",
+      "version": "1.0.0",
+      "price_usd": 19,
+      "pricing": "one-time",
+      "category": "Agent Safety and Governance",
+      "blurb": "Before your agent earns a bigger role, it faces the tricks in rehearsal: a recorded drill run against your own agent, with every finding turned into a standing rule.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/the-planted-note-drill.md",
+        "examples/the-urgent-caller-drill.md",
+        "reference/containment-and-approval.md",
+        "reference/drill-design.md",
+        "reference/retest-and-role-gates.md",
+        "reference/scoring-and-findings.md",
+        "templates/drill-pack.template.md",
+        "templates/drill-run-record.template.md"
+      ],
+      "bundle_bytes": 48074,
+      "bundle_hash": "683b8ef4758997137c6a692a9409940fa761c3d4024071ad520bfac0602aae55",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "spreadsheet-cleanup",
+      "title": "Spreadsheet Cleanup",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Data, Files, and Research",
+      "blurb": "A messy file becomes a clean table you can stand behind: every duplicate, broken row, and unit fix logged in a cleanup record, and nothing dropped or altered in silence.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/event-signup-sheet-cleanup/WALKTHROUGH.md",
+        "examples/vendor-price-list-cleanup/WALKTHROUGH.md",
+        "reference/duplicates-and-broken-rows.md",
+        "reference/reading-the-mess.md",
+        "reference/the-cleanup-record.md",
+        "reference/units-dates-and-formats.md",
+        "templates/clean-table-handoff.template.md",
+        "templates/cleanup-record.template.md"
+      ],
+      "bundle_bytes": 34834,
+      "bundle_hash": "8aa330446e7d7e035a8d9d7bd0ca0ecc86788f8e1b0243592b3fb5aad9c60264",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "document-intake-filing",
+      "title": "Document Intake and Filing",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Data, Files, and Research",
+      "blurb": "Loose invoices, forms, and statements become structured records you can search and trace back to the exact page they came from, filed under one naming rule.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/statements-and-a-form.md",
+        "examples/vendor-invoice-batch.md",
+        "reference/checking-the-batch.md",
+        "reference/confidence-and-unreadable-fields.md",
+        "reference/naming-and-filing.md",
+        "reference/the-intake-record.md",
+        "templates/batch-summary.template.md",
+        "templates/intake-record.template.md"
+      ],
+      "bundle_bytes": 34656,
+      "bundle_hash": "f0022e1b827d0aee3618e5188c40516312321265d807fb439874f3e6a4a788c3",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "file-filing-and-renaming",
+      "title": "File Filing and Renaming",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Data, Files, and Research",
+      "blurb": "A folder you cannot find anything in becomes a filed set in one planned pass: the manifest is approved before anything moves, and the undo log can reverse the whole run.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/the-client-files-sort/WALKTHROUGH.md",
+        "examples/the-downloads-cleanup/WALKTHROUGH.md",
+        "reference/collisions-and-holds.md",
+        "reference/manifest-discipline.md",
+        "reference/naming-rules.md",
+        "reference/undo-and-verification.md",
+        "templates/filing-manifest.template.md",
+        "templates/undo-log.template.md"
+      ],
+      "bundle_bytes": 39529,
+      "bundle_hash": "749ffd6958a6c6eab5e0fc682a5b0ac1691317dc819721aed6faa19e2648d964",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "video-shorts-pipeline",
+      "title": "Video Shorts Pipeline",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Creator and Audience",
+      "blurb": "One long recording becomes a planned queue of captioned shorts: cut points traced to the transcript, captions checked against the recording itself, and a posting order you approve before anything is cut or posted.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/interview-to-shorts/WALKTHROUGH.md",
+        "examples/workshop-recording-to-shorts/WALKTHROUGH.md",
+        "reference/caption-checking.md",
+        "reference/choosing-cut-points.md",
+        "reference/queue-and-posting-order.md",
+        "reference/transcript-and-source-truth.md",
+        "templates/caption-sheet.template.md",
+        "templates/shorts-queue.template.md"
+      ],
+      "bundle_bytes": 34336,
+      "bundle_hash": "f16a1f15a209fde1227d0bc8f222f0d905fc3f3af0f0a40a8baad6bd8eb2a9c6",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "audience-comment-triage",
+      "title": "Audience Comment Triage",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Creator and Audience",
+      "blurb": "The pile after a post gets worked in order: every comment and DM sorted into answer, flag, or ignore, replies drafted in your own voice, and a triage log so nothing is answered twice or left hanging.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/dm-backlog-after-a-live-session/WALKTHROUGH.md",
+        "examples/video-comments-after-a-tutorial/WALKTHROUGH.md",
+        "reference/flagging-with-care.md",
+        "reference/the-three-buckets.md",
+        "reference/the-triage-log.md",
+        "reference/voice-from-real-replies.md",
+        "templates/reply-draft-sheet.template.md",
+        "templates/triage-log.template.md"
+      ],
+      "bundle_bytes": 31361,
+      "bundle_hash": "ea0c70ab1a3cc9d7626742ef9fdb02f467e3ca6598d8b576f8bec81f32d30a47",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "referral-requests",
+      "title": "Referral Requests",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Reputation",
+      "blurb": "A finished job becomes new work: the right customer asked once, at the right moment, in your own voice, with every ask logged so nobody is ever asked twice.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/firewood-regular-names-a-friend/WALKTHROUGH.md",
+        "examples/roof-valley-neighbour-referral/WALKTHROUGH.md",
+        "reference/drafting-the-referral-ask.md",
+        "reference/the-referral-log.md",
+        "reference/when-to-ask.md",
+        "reference/who-to-ask.md",
+        "templates/referral-ask.template.md",
+        "templates/referral-log-entry.template.md"
+      ],
+      "bundle_bytes": 34326,
+      "bundle_hash": "ec1581e94d5654e57f134e73efe40aba4f72eea92888f06c2cd1915cd1d5e9e0",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "crew-day-planner",
+      "title": "Crew Day Planner",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Local Services / Field Operations",
+      "blurb": "A multi-job day planned on one sheet before anyone leaves: jobs ordered by drive time and promise times, crew named per job, materials listed per job, and the day's customer messages drafted in the order they will be needed.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/four-jobs-two-crews-split-day/WALKTHROUGH.md",
+        "examples/three-jobs-one-crew-tuesday/WALKTHROUGH.md",
+        "reference/crew-assignments-that-hold.md",
+        "reference/customer-messages-in-order.md",
+        "reference/materials-per-job.md",
+        "reference/ordering-by-drive-and-promise.md",
+        "templates/day-sheet.template.md",
+        "templates/message-queue.template.md"
+      ],
+      "bundle_bytes": 39546,
+      "bundle_hash": "ebaaef864ec70b61625a61bc3b6bbf60392c79ba079396ac41a4b5b2cbed04ad",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "expense-and-receipt-log",
+      "title": "Expense and Receipt Log",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Money",
+      "blurb": "Every receipt lands in the job's cost record the moment it happens, and a weekly pass checks the log against what was actually paid, so job profit and tax records are read from a record instead of rebuilt from memory.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/valley-roof-repair/WALKTHROUGH.md",
+        "examples/yard-cleanup-and-dump-runs/WALKTHROUGH.md",
+        "reference/capturing-at-the-moment.md",
+        "reference/receipts-gaps-and-tax-records.md",
+        "reference/the-per-job-cost-record.md",
+        "reference/weekly-reconciliation.md",
+        "templates/job-cost-record.template.md",
+        "templates/weekly-reconciliation.template.md"
+      ],
+      "bundle_bytes": 30791,
+      "bundle_hash": "dea382ffc913a729a7c030f8e0c06288064157406242249055b78b82b981c0bf",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "newsletter-issue-builder",
+      "title": "Newsletter Issue Builder",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Studio / Publishing",
+      "blurb": "A week's real work becomes a newsletter issue: sections drafted only from the studio's own records, every link checked, every claim held to what the records show, and one approval before anything sends.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/quiet-week-client-work-roundup/WALKTHROUGH.md",
+        "examples/studio-week-with-two-releases/WALKTHROUGH.md",
+        "reference/checking-links-and-facts.md",
+        "reference/gathering-from-records.md",
+        "reference/holding-claims-to-records.md",
+        "reference/sections-and-order.md",
+        "templates/issue-draft.template.md",
+        "templates/issue-plan.template.md"
+      ],
+      "bundle_bytes": 34615,
+      "bundle_hash": "3e59909564569c799c8df16625861836188c1faf60d8af47978521e7cf6478cd",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
     }
   ]
 }
