@@ -3985,6 +3985,438 @@
         "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
         "package_published": false
       }
+    },
+    {
+      "id": "new-agent-intake-checks",
+      "title": "New Agent Intake Checks",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Agent Safety and Governance",
+      "blurb": "Learn what a new agent can actually touch, what it sends and where, and how it fails, proven on copies before it ever sees a real record, with the admit or refuse call on record.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/inbox-triage-agent-for-a-trades-business/WALKTHROUGH.md",
+        "examples/supplier-ordering-agent-for-a-small-shop/WALKTHROUGH.md",
+        "reference/map-what-it-can-touch.md",
+        "reference/map-what-it-sends-and-where.md",
+        "reference/prove-failure-behaviour-on-copies.md",
+        "reference/the-admit-or-refuse-record.md",
+        "templates/intake-checklist.template.md",
+        "templates/intake-decision-record.template.md"
+      ],
+      "bundle_bytes": 42506,
+      "bundle_hash": "629489d46970cc9721f1771f3a7ef6993b3eb84d875a304667ba351df598afdb",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "agent-fleet-roster",
+      "title": "Agent Fleet Roster",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Agent Operations",
+      "blurb": "Answer for your whole fleet from one page: every agent's job, what it can touch, who answers for it, and when its entry was last checked, kept in one living register.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/first-roster-for-a-three-agent-studio/WALKTHROUGH.md",
+        "examples/roster-cleanup-after-a-year-of-growth/WALKTHROUGH.md",
+        "reference/keeping-the-roster-current.md",
+        "reference/ownership-and-answerability.md",
+        "reference/roster-fields.md",
+        "reference/what-each-agent-can-touch.md",
+        "templates/agent-roster-entry.template.md",
+        "templates/fleet-roster.template.md"
+      ],
+      "bundle_bytes": 40541,
+      "bundle_hash": "0e3fab021022e2061f6da426764da8dd0c57eaf225b6efdce5e8a4a9de0c437a",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "runbook-writing",
+      "title": "Runbook Writing",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Studio / Publishing",
+      "blurb": "Turn a procedure only one person knows into a dated runbook entry a second operator can follow at night, checked step by step against the live system.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/nightly-backup-failure/WALKTHROUGH.md",
+        "examples/web-service-restart/WALKTHROUGH.md",
+        "reference/anatomy-of-a-runbook-entry.md",
+        "reference/checking-against-the-live-system.md",
+        "reference/keeping-runbooks-current.md",
+        "reference/writing-operator-steps.md",
+        "templates/runbook-entry.template.md",
+        "templates/runbook-index-and-review.template.md"
+      ],
+      "bundle_bytes": 42695,
+      "bundle_hash": "4ba69f557751fed3ef69ffbbcf06fd16050afbc6262b86f638cdeef060451902",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "build-verification-checks",
+      "title": "Build Verification Checks",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Studio / Shipping",
+      "blurb": "Catch a dead on arrival build in the studio instead of in front of a user, with one fixed pre-ship list for start, main flows, version stamp, and artifacts, and a written record for every build.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/mobile-app-blank-screen-catch/WALKTHROUGH.md",
+        "examples/service-release-clean-check/WALKTHROUGH.md",
+        "reference/recording-a-build-result.md",
+        "reference/the-verification-checklist.md",
+        "reference/version-and-artifact-checks.md",
+        "reference/when-a-check-fails.md",
+        "templates/build-verification-record.template.md",
+        "templates/verification-checklist.template.md"
+      ],
+      "bundle_bytes": 40849,
+      "bundle_hash": "e0332003a75ea4585914e4c5b80705a55103401bfe2bf16c486d20079798d8c8",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "research-source-grading",
+      "title": "Research Source Grading",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Data, Files, and Research",
+      "blurb": "Grade every source behind your research before its claims are used, so each claim carries only the weight its source earned, with copies counted once and conflicts named in the open.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/grading-a-vendor-performance-claim/WALKTHROUGH.md",
+        "examples/grading-sources-for-a-pricing-brief/WALKTHROUGH.md",
+        "reference/conflicts-and-grade-changes.md",
+        "reference/dates-publishers-and-provenance.md",
+        "reference/primary-and-secondary-sources.md",
+        "reference/the-grading-scale.md",
+        "templates/source-grade-card.template.md",
+        "templates/source-register.template.md"
+      ],
+      "bundle_bytes": 46775,
+      "bundle_hash": "594836028ac41f2368c27f9f6d73355dabe4a480e730d2aa07f26eceaa1aa22b",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "file-metadata-cleanup",
+      "title": "File Metadata Cleanup",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Data, Files, and Research",
+      "blurb": "A library you can find things in again: names, dates, and embedded fields agree under one written rule, with every change logged per file and originals kept untouched until you sign off.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/client-document-archive/WALKTHROUGH.md",
+        "examples/spring-photo-export/WALKTHROUGH.md",
+        "reference/approval-originals-and-verification.md",
+        "reference/batch-checking-and-holds.md",
+        "reference/metadata-fields-and-sources.md",
+        "reference/writing-the-cleanup-rule.md",
+        "templates/cleanup-plan.template.md",
+        "templates/per-file-change-log.template.md"
+      ],
+      "bundle_bytes": 50847,
+      "bundle_hash": "fcc26ba71f03302d8cf65424a8b10bd81b2d0097a8469a721c2de38b794d6379",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "first-conversation-scripts",
+      "title": "First Conversation Scripts",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Sales",
+      "blurb": "Your first call with a new lead runs from a one-page script built from your own services, so the job gets sized, only deliverable promises get made, and the call ends with one next step both sides heard the same way.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/fence-repair-first-call/WALKTHROUGH.md",
+        "examples/junk-haul-first-call/WALKTHROUGH.md",
+        "reference/building-the-script-from-your-services.md",
+        "reference/questions-that-size-the-job.md",
+        "reference/the-one-next-step.md",
+        "reference/what-can-and-cannot-be-promised.md",
+        "templates/conversation-record.template.md",
+        "templates/first-conversation-script.template.md"
+      ],
+      "bundle_bytes": 34361,
+      "bundle_hash": "ea7805d70840cf6043d9d5c28fd93ac6bea2011eb0e562369ec6d2b7e7de1532",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "add-on-offers",
+      "title": "Add-On Offers",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Local Services / Sales",
+      "blurb": "Finds extra work a job record genuinely supports, writes each add-on into the quote as its own line at its price from the operator price list, offers it once in plain words, and records the customer answer either way.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/deck-repair-stain-and-seal/WALKTHROUGH.md",
+        "examples/kitchen-repair-grout-and-caulk/WALKTHROUGH.md",
+        "reference/offering-once-and-recording-the-answer.md",
+        "reference/price-list-and-what-is-never-offered.md",
+        "reference/when-the-record-supports-an-add-on.md",
+        "reference/writing-the-add-on-as-its-own-line.md",
+        "templates/add-on-offer-record.template.md",
+        "templates/quote-with-add-ons.template.md"
+      ],
+      "bundle_bytes": 35064,
+      "bundle_hash": "3d0cd3a99ffe58309f65cc24b0f8fa211d5df24f04ba429a27a623c8c914f144",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "progress-payment-schedule",
+      "title": "Progress Payment Schedule",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Local Services / Money",
+      "blurb": "A bigger job billed in stages agreed before work starts, with a deposit, midpoints tied to visible milestones, and the balance at completion, each stage recorded as open or paid so money and work stay in step.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/kitchen-remodel-three-stages/WALKTHROUGH.md",
+        "examples/roof-replacement-milestone-slip/WALKTHROUGH.md",
+        "reference/changes-and-balance-at-completion.md",
+        "reference/customer-wording-for-stages.md",
+        "reference/stage-plan-tied-to-visible-milestones.md",
+        "reference/stage-record-open-or-paid.md",
+        "templates/progress-payment-schedule.template.md",
+        "templates/stage-payment-record.template.md"
+      ],
+      "bundle_bytes": 37380,
+      "bundle_hash": "a68665ea8060c0eb979f54e346b68731618dad14d9be28ac792229740f15284d",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "fuel-and-mileage-log",
+      "title": "Fuel and Mileage Log",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Money",
+      "blurb": "Every trip your work vehicle makes is logged against the job it served and every fuel stop is recorded from its receipt, so each closed job shows its true road cost and the year's vehicle totals exist as arithmetic, not recollection.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/fence-repair-two-jobs-one-van/WALKTHROUGH.md",
+        "examples/firewood-delivery-week/WALKTHROUGH.md",
+        "reference/closing-the-month-and-the-year.md",
+        "reference/logging-a-trip-against-a-job.md",
+        "reference/recording-a-fuel-stop.md",
+        "reference/turning-the-log-into-a-job-cost.md",
+        "templates/job-and-year-totals.template.md",
+        "templates/trip-and-fuel-entry.template.md"
+      ],
+      "bundle_bytes": 34516,
+      "bundle_hash": "7d7b3d60f65d3803c4b5174d0f07802d1c324a016f0904fc37325ef594e67ad2",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "site-safety-walk",
+      "title": "Site Safety Walk",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Field Operations",
+      "blurb": "The crew starts knowing the site instead of discovering it, because one recorded walk before work names hazards across access, overhead, ground, and weather exposure, gives each a written plan, and files the photos against the job.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/brush-clearing-deck-teardown/WALKTHROUGH.md",
+        "examples/roof-valley-repair-steep-lot/WALKTHROUGH.md",
+        "reference/access-and-overhead-hazards.md",
+        "reference/ground-and-weather-hazards.md",
+        "reference/photos-filed-against-the-job.md",
+        "reference/plan-for-each-hazard.md",
+        "templates/crew-start-brief.template.md",
+        "templates/safety-walk-record.template.md"
+      ],
+      "bundle_bytes": 39717,
+      "bundle_hash": "e45376abb6547f26df571f498b79a62fdecd1aa1611562b3e9c52ff78a5ff2ba",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "subcontractor-payment-records",
+      "title": "Subcontractor Payment Records",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Local Services / Field Operations",
+      "blurb": "Every subcontractor payment tied to the agreed stage it covers, partials shown as partial, and the balance owed known from one record at any point.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/deck-framing-staged-payments/WALKTHROUGH.md",
+        "examples/fence-build-agreed-extra/WALKTHROUGH.md",
+        "reference/agreement-total-and-stages.md",
+        "reference/extras-holdbacks-and-closing-the-record.md",
+        "reference/partial-payments-and-balance-owed.md",
+        "reference/recording-a-payment-as-it-happens.md",
+        "templates/payment-ledger.template.md",
+        "templates/payment-summary-for-the-sub.template.md"
+      ],
+      "bundle_bytes": 36007,
+      "bundle_hash": "d2a4535932a8ceee11e7d076e0053838b45cd35524f9d7593da8b036a316ab2b",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
     }
   ]
 }
