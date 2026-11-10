@@ -7009,6 +7009,222 @@
         "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
         "package_published": false
       }
+    },
+    {
+      "id": "agent-fleet-cost-review",
+      "title": "Agent Fleet Cost Review",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Agent Operations",
+      "blurb": "Get a periodic review that joins what each agent cost to the work it actually delivered, ending with one recorded call per agent, keep, narrow, or retire, with the reason in plain words.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/first-review-for-a-four-agent-fleet/WALKTHROUGH.md",
+        "examples/quarterly-review-that-narrowed-two-agents/WALKTHROUGH.md",
+        "reference/joining-costs-to-delivered-work.md",
+        "reference/review-evidence-and-gaps.md",
+        "reference/setting-the-review-cadence.md",
+        "reference/the-three-calls.md",
+        "templates/agent-cost-review-entry.template.md",
+        "templates/fleet-cost-review.template.md"
+      ],
+      "bundle_bytes": 41170,
+      "bundle_hash": "f7b1878ab97de413e4e2c737847d19ae3526e68106e7e21ad6ffd0262c5acad7",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "launch-day-runbook",
+      "title": "Launch Day Runbook",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Studio / Shipping",
+      "blurb": "Run the public launch day hour by hour from one written runbook, with the checks before the announcement closed on evidence, posts and pages landing in a set order, a named watcher on every surface, and rollback and correction lines approved before the first post goes out.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/first-launch-for-a-small-tool/WALKTHROUGH.md",
+        "examples/launch-day-with-a-late-correction/WALKTHROUGH.md",
+        "reference/before-the-announcement-checks.md",
+        "reference/order-of-posts-and-pages.md",
+        "reference/rollback-and-correction-lines.md",
+        "reference/who-watches-what.md",
+        "templates/launch-day-log.template.md",
+        "templates/launch-day-runbook.template.md"
+      ],
+      "bundle_bytes": 40589,
+      "bundle_hash": "24d6ca1b1c0d9e17202fcbb4967795cc4858f42acd327d5c0afa8275b06b251d",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "archive-integrity-checks",
+      "title": "Archive Integrity Checks",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Data, Files, and Research",
+      "blurb": "Archived files get tested on a set cadence against the archive index, each one opened in full and its hash compared with its index entry, so every failure is listed per file and can be repaired from the surviving copy while a good copy still exists.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/first-check-for-a-small-office-archive/WALKTHROUGH.md",
+        "examples/quarterly-check-that-found-three-failures/WALKTHROUGH.md",
+        "reference/cadence-and-scope.md",
+        "reference/check-fields-and-statuses.md",
+        "reference/reading-the-hash-check.md",
+        "reference/repair-from-the-surviving-copy.md",
+        "templates/failure-list.template.md",
+        "templates/integrity-check-log.template.md"
+      ],
+      "bundle_bytes": 41509,
+      "bundle_hash": "fd3d6456bdd3be5ebb5ba7d16d905325ad19c007d7448bc9391d997c22e62bb5",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "customer-win-back-notes",
+      "title": "Customer Win-Back Notes",
+      "version": "1.0.0",
+      "price_usd": 12,
+      "pricing": "one-time",
+      "category": "Local Services / Reputation",
+      "blurb": "Lapsed customers are reviewed one by one from their own job records, and a plain win-back note is drafted for each from what that record supports, held for your approval before anything is sent, with the answer recorded either way.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/hauling-customer-after-a-long-gap/WALKTHROUGH.md",
+        "examples/yard-cleanup-customer-who-went-quiet/WALKTHROUGH.md",
+        "reference/drafting-the-win-back-note.md",
+        "reference/finding-lapsed-customers.md",
+        "reference/holding-for-approval.md",
+        "reference/recording-the-answer.md",
+        "templates/win-back-log-entry.template.md",
+        "templates/win-back-note.template.md"
+      ],
+      "bundle_bytes": 30945,
+      "bundle_hash": "71fbf95e3d288bd27b5bda8a4dd8981bd216420f39c56e6bdc657be8ef8b9cd7",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "year-plan-budget-setup",
+      "title": "Year Plan Budget Setup",
+      "version": "1.0.0",
+      "price_usd": 15,
+      "pricing": "one-time",
+      "category": "Local Services / Money",
+      "blurb": "Your coming year runs against a written plan built from your own prior year records, with a planned figure and a reason for every income and expense class, totals worked in the open, and set review dates for reading the plan against actuals while the year can still be steered.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/first-year-plan-for-a-small-crew/WALKTHROUGH.md",
+        "examples/second-year-plan-after-a-full-year-of-actuals/WALKTHROUGH.md",
+        "reference/carrying-classes-forward.md",
+        "reference/handling-classes-that-change.md",
+        "reference/reviewing-plan-against-actuals.md",
+        "reference/setting-planned-figures-with-reasons.md",
+        "templates/plan-review.template.md",
+        "templates/year-plan.template.md"
+      ],
+      "bundle_bytes": 41226,
+      "bundle_hash": "57d2b56fa39b6d7f19446f987d375cda713153e16113075f2b775ffbe7cccd5b",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
+    },
+    {
+      "id": "skill-stack-planner",
+      "title": "Skill Stack Planner",
+      "version": "1.0.0",
+      "price_usd": 19,
+      "pricing": "one-time",
+      "category": "Agent Operations",
+      "blurb": "Plans which skills a workflow needs from end to end, with each step matched to a skill the operator holds or to a named gap, and the gaps ordered by what blocks the most work, so the operator can see the cover they have and the gaps that matter first.",
+      "files": 9,
+      "file_list": [
+        "SKILL.md",
+        "examples/planning-a-monthly-report-workflow/WALKTHROUGH.md",
+        "examples/planning-coverage-for-a-client-onboarding-workflow/WALKTHROUGH.md",
+        "reference/keeping-the-plan-current.md",
+        "reference/matching-steps-to-skills.md",
+        "reference/ordering-gaps-by-blocked-work.md",
+        "reference/stack-plan-fields.md",
+        "templates/skill-stack-plan.template.md",
+        "templates/workflow-step-map.template.md"
+      ],
+      "bundle_bytes": 41357,
+      "bundle_hash": "586006291f0171ad7d6071de56da9926cee897f0f9d973e6a56f5179280d6c0e",
+      "vetted": true,
+      "composition": {
+        "root": 1,
+        "examples": 2,
+        "reference": 4,
+        "templates": 2
+      },
+      "example_file": null,
+      "source": {
+        "seller": "Ghost Developer Studio (first-party)",
+        "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
+        "package_published": false
+      }
     }
   ]
 }
