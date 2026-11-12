@@ -9,17 +9,19 @@
       "pricing": "free",
       "category": "Security / Guardrails",
       "blurb": "Your agent stops asking permission for the safe calls, and can never quietly make the dangerous ones.",
-      "files": 1,
+      "files": 2,
       "file_list": [
-        "SKILL.md"
+        "SKILL.md",
+        "examples/first-run/WALKTHROUGH.md"
       ],
-      "bundle_bytes": 4588,
-      "bundle_hash": "66d745b552042c1e46ef3b372ca7c2f37b7f1b158c1e74fabe7504608f2a44ba",
+      "bundle_bytes": 10210,
+      "bundle_hash": "a469a2603bcedde02c8ca001bd5970452e2c8aa4b3ae9ce19646223a6cd16b73",
       "vetted": true,
       "composition": {
-        "root": 1
+        "root": 1,
+        "examples": 1
       },
-      "example_file": null,
+      "example_file": "examples/first-run/WALKTHROUGH.md",
       "source": {
         "seller": "Ghost Developer Studio (first-party)",
         "catalog_repository": "https://github.com/littlestjames82-sys/ghostbus-hub-skills",
