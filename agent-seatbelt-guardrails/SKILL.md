@@ -1,6 +1,8 @@
 ---
 name: agent-seatbelt-guardrails
 description: Live safely with Agent Seatbelt guardrails on a coding agent. Use when Agent Seatbelt gates, denies, or asks about a tool call; when checking what Seatbelt would decide for a command before running it; when reading a Seatbelt denial, audit report, or flight plan; or when installing the free, open-source Agent Seatbelt plugin for Claude Code, Cursor, Copilot, Codex, and other agents.
+version: "0.3.2"
+platforms: [openclaw, claudecode, cursor, codex]
 license: MIT
 compatibility: Works with any agent that supports the SKILL.md format. The full Agent Seatbelt gate requires Python 3 and the free plugin from the source repository linked in this skill.
 metadata:
